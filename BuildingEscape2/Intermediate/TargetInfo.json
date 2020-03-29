@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BuildingEscape2",
+			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\RemasteredBuildingEscape\\BuildingEscape2\\Source\\BuildingEscape2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BuildingEscape2Editor",
+			"Path": "C:\\Users\\TheK-B1000\\Desktop\\The K-B Folder\\Unreal\\repos\\RemasteredBuildingEscape\\BuildingEscape2\\Source\\BuildingEscape2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

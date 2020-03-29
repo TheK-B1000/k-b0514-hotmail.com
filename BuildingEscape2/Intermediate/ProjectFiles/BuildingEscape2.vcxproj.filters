@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BuildingEscape2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8014A236-1121-43EB-B7C4-1CA90A6D45EE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BuildingEscape2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BuildingEscape2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FB37D978-3F93-4837-9C40-DBB62CA568FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BuildingEscape2">
+      <UniqueIdentifier>{7DDF4DC6-1E1A-4F35-AA54-2BE6E0A5C9B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BuildingEscape2\BuildingEscape2.Build.cs">
+      <Filter>Source\BuildingEscape2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BuildingEscape2\BuildingEscape2.cpp">
+      <Filter>Source\BuildingEscape2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BuildingEscape2\BuildingEscape2.h">
+      <Filter>Source\BuildingEscape2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BuildingEscape2\BuildingEscape2GameModeBase.cpp">
+      <Filter>Source\BuildingEscape2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BuildingEscape2\BuildingEscape2GameModeBase.h">
+      <Filter>Source\BuildingEscape2</Filter>
+    </ClInclude>
+    <Filter Include="Source\BuildingEscape2\Private">
+      <UniqueIdentifier>{1D94FA63-D87C-4D53-8E7D-76A5DB91A8FC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BuildingEscape2\Private\WorldPosition.cpp">
+      <Filter>Source\BuildingEscape2\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BuildingEscape2\Public">
+      <UniqueIdentifier>{6F7FD3DB-D8D7-4960-81E5-F0366215E649}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\BuildingEscape2\Public\WorldPosition.h">
+      <Filter>Source\BuildingEscape2\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
