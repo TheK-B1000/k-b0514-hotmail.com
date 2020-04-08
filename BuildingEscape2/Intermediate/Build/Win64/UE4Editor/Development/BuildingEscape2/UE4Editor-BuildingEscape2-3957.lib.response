@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-BuildingEscape2-3957.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscape2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\OpenDoor.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\WorldPosition.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\BuildingEscape2.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\BuildingEscape2GameModeBase.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\BuildingEscape2.init.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\BuildingEscape2GameModeBase.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\OpenDoor.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\WorldPosition.gen.cpp.obj"
+"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\Default.rc2.res"
+/OUT:"C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-3957.lib"
+/INCLUDE:IMPLEMENT_MODULE_BuildingEscape2
