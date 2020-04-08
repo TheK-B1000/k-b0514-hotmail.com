@@ -375,7 +375,9 @@
     <ClInclude Include="..\..\Source\BuildingEscape2\BuildingEscape2.h"/>
     <ClCompile Include="..\..\Source\BuildingEscape2\BuildingEscape2GameModeBase.cpp"/>
     <ClInclude Include="..\..\Source\BuildingEscape2\BuildingEscape2GameModeBase.h"/>
+    <ClCompile Include="..\..\Source\BuildingEscape2\Private\OpenDoor.cpp"/>
     <ClCompile Include="..\..\Source\BuildingEscape2\Private\WorldPosition.cpp"/>
+    <ClInclude Include="..\..\Source\BuildingEscape2\Public\OpenDoor.h"/>
     <ClInclude Include="..\..\Source\BuildingEscape2\Public\WorldPosition.h"/>
   </ItemGroup>
   <PropertyGroup>

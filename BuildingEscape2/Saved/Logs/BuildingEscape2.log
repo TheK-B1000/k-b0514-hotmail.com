@@ -1,4 +1,4 @@
-﻿Log file open, 04/03/20 20:17:24
+﻿Log file open, 04/08/20 14:19:32
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: BuildingEscape2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.332358
+LogStats: Stats thread started at 0.114663
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -163,674 +163,451 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
-[2020.04.04-03.17.24:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.04.04-03.17.24:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
-[2020.04.04-03.17.24:887][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
-[2020.04.04-03.17.24:893][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.04-03.17.24:893][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.04-03.17.24:894][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.04-03.17.24:895][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.04-03.17.24:895][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.04-03.17.24:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.04.04-03.17.24:899][  0]LogHAL: Display: Platform has ~ 8 GB [8462237696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.04.04-03.17.24:899][  0]LogInit: Going up to parent DeviceProfile []
-[2020.04.04-03.17.24:899][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.04.04-03.17.24:899][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.04.04-03.17.24:900][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.04.04-03.17.24:901][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
-[2020.04.04-03.17.24:901][  0]LogInit: Computer: LAPTOP-7TARG8CR
-[2020.04.04-03.17.24:901][  0]LogInit: User: TheKB1000
-[2020.04.04-03.17.24:901][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.04.04-03.17.24:901][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.04.04-03.17.24:902][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.04.04-03.17.24:902][  0]LogMemory: Platform Memory Stats for Windows
-[2020.04.04-03.17.24:902][  0]LogMemory: Process Physical Memory: 105.47 MB used, 105.47 MB peak
-[2020.04.04-03.17.24:902][  0]LogMemory: Process Virtual Memory: 99.95 MB used, 99.95 MB peak
-[2020.04.04-03.17.24:902][  0]LogMemory: Physical Memory: 6200.71 MB used,  1869.51 MB free, 8070.22 MB total
-[2020.04.04-03.17.24:902][  0]LogMemory: Virtual Memory: 5121.11 MB used,  134212608.00 MB free, 134217728.00 MB total
-[2020.04.04-03.17.24:908][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.04.04-03.17.25:013][  0]LogInit: Using OS detected language (en-US).
-[2020.04.04-03.17.25:013][  0]LogInit: Using OS detected locale (en-US).
-[2020.04.04-03.17.25:014][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.04.04-03.17.25:288][  0]LogInit: Setting process to per monitor DPI aware
-[2020.04.04-03.17.25:330][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.04.04-03.17.25:330][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.04.04-03.17.25:654][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.04-03.17.25:654][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.04.04-03.17.25:654][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.04.04-03.17.25:654][  0]LogD3D11RHI: D3D11 adapters:
-[2020.04.04-03.17.25:969][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2020.04.04-03.17.25:970][  0]LogD3D11RHI:       4055/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.04.04-03.17.26:030][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2020.04.04-03.17.26:030][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.04.04-03.17.26:040][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.04.04-03.17.26:040][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.04.04-03.17.26:040][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.04.04-03.17.26:131][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.04.04-03.17.26:131][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2020.04.04-03.17.26:131][  0]LogWindows: EnumDisplayDevices:
-[2020.04.04-03.17.26:131][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2020.04.04-03.17.26:132][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.04.04-03.17.26:133][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2020.04.04-03.17.26:134][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.04.04-03.17.26:134][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2020.04.04-03.17.26:134][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.04.04-03.17.26:134][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.04.04-03.17.26:134][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2020.04.04-03.17.26:212][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.04.04-03.17.26:212][  0]LogD3D11RHI: Async texture creation enabled
-[2020.04.04-03.17.26:244][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2020.04.04-03.17.27:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.04.04-03.17.27:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.04.04-03.17.27:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.04.04-03.17.27:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.04.04-03.17.27:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.04.04-03.17.27:192][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.04.04-03.17.27:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.04.04-03.17.27:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.04.04-03.17.27:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.04.04-03.17.27:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.04.04-03.17.27:292][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.04.04-03.17.27:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.04.04-03.17.27:319][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.04.04-03.17.27:332][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.04.04-03.17.27:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.04.04-03.17.27:371][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.04.04-03.17.27:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.04.04-03.17.27:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.04.04-03.17.27:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.04.04-03.17.27:420][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.04.04-03.17.27:433][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.04.04-03.17.27:446][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.04.04-03.17.27:446][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.04.04-03.17.27:461][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.04.04-03.17.27:569][  0]LogShaderCompilers: Guid format shader working directory is -61 characters bigger than the processId version (../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Intermediate/Shaders/WorkingDirectory/16132/).
-[2020.04.04-03.17.27:569][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheK-B1000/AppData/Local/Temp/UnrealShaderWorkingDir/DE2C66FD489660615407659359C9CDD8/'.
-[2020.04.04-03.17.27:570][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.04.04-03.17.27:570][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.04.04-03.17.27:570][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.04.04-03.17.28:676][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.04.04-03.17.28:776][  0]LogDerivedDataCache: Loaded boot cache 0.10s 78MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.04-03.17.28:776][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.04.04-03.17.28:776][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.04.04-03.17.28:776][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.04.04-03.17.28:776][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.04-03.17.28:776][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.04.04-03.17.28:793][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.04.04-03.17.28:793][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.04.04-03.17.28:793][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.04.04-03.17.28:799][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.04.04-03.17.28:799][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.04.04-03.17.28:799][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.04.04-03.17.28:840][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.04.04-03.17.28:845][  0]LogSlate: Using FreeType 2.10.0
-[2020.04.04-03.17.28:845][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.04.04-03.17.28:970][  0]LogAssetRegistry: FAssetRegistry took 0.0077 seconds to start up
-[2020.04.04-03.17.29:407][  0]LogInit: Selected Device Profile: [Windows]
-[2020.04.04-03.17.29:629][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.04.04-03.17.29:629][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.04.04-03.17.29:629][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.04.04-03.17.29:629][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.04.04-03.17.29:629][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.04.04-03.17.29:643][  0]LogNetVersion: BuildingEscape2 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 936750518)
-[2020.04.04-03.17.31:023][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.056112 seconds
-[2020.04.04-03.17.31:037][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.04.04-03.17.31:037][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.04.04-03.17.31:037][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.04.04-03.17.31:695][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.04.04-03.17.31:703][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.04.04-03.17.31:830][  0]SourceControl: Source control is disabled
-[2020.04.04-03.17.31:830][  0]SourceControl: Source control is disabled
-[2020.04.04-03.17.31:834][  0]SourceControl: Source control is disabled
-[2020.04.04-03.17.31:837][  0]SourceControl: Source control is disabled
-[2020.04.04-03.17.31:840][  0]SourceControl: Source control is disabled
-[2020.04.04-03.17.32:016][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.04.04-03.17.32:050][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.04-03.17.32:050][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.04.04-03.17.32:175][  0]LogOcInput: OculusInput pre-init called
-[2020.04.04-03.17.32:190][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.04.04-03.17.32:190][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.04.04-03.17.32:295][  0]LogEngine: Initializing Engine...
-[2020.04.04-03.17.32:297][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.04.04-03.17.32:299][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.04.04-03.17.32:911][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.04.04-03.17.32:926][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.04.04-03.17.32:957][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.04.04-03.17.32:957][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.04.04-03.17.32:957][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.04.04-03.17.32:957][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.04.04-03.17.32:957][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.04.04-03.17.32:957][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.04.04-03.17.32:957][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.04.04-03.17.32:957][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.04.04-03.17.32:958][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.04.04-03.17.32:958][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.04.04-03.17.33:008][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.04.04-03.17.33:008][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
-[2020.04.04-03.17.33:008][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.04.04-03.17.33:008][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.04.04-03.17.33:008][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.04.04-03.17.33:008][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.04.04-03.17.33:008][  0]LogAudioMixer: Display: Channel Order:
-[2020.04.04-03.17.33:009][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.04.04-03.17.33:009][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.04.04-03.17.33:162][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2020.04.04-03.17.33:172][  0]LogInit: FAudioDevice initialized.
-[2020.04.04-03.17.33:173][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.04.04-03.17.33:428][  0]LogDerivedDataCache: Saved boot cache 0.26s 78MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.04.04-03.17.33:429][  0]LogInit: Texture streaming: Enabled
-[2020.04.04-03.17.33:526][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.04.04-03.17.33:526][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.04.04-03.17.33:535][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.04.04-03.17.33:650][  0]LogInit: Transaction tracking system initialized
-[2020.04.04-03.17.33:697][  0]BlueprintLog: New page: Editor Load
-[2020.04.04-03.17.33:860][  0]LocalizationService: Localization service is disabled
-[2020.04.04-03.17.33:950][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
-[2020.04.04-03.17.33:950][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
-[2020.04.04-03.17.33:950][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/CloseCombat/CloseCombat_Greeting_Tutorial.CloseCombat_Greeting_Tutorial_C'
-[2020.04.04-03.17.34:290][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/' took 0.01s
-[2020.04.04-03.17.34:290][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.04.04-03.17.34:290][  0]LogCook: Display: Mobile HDR setting 1
-[2020.04.04-03.17.35:931][  0]SourceControl: Source control is disabled
-[2020.04.04-03.17.35:932][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.04-03.17.35:933][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Level.umap'
-[2020.04.04-03.17.35:940][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.04-03.17.35:940][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.4ms to complete.
-[2020.04.04-03.17.35:941][  0]LogFileHelpers: Loading map 'Level' took 0.008
-[2020.04.04-03.17.36:248][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.04-03.17.36:263][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.04-03.17.36:276][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.04-03.17.36:290][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.04.04-03.17.36:316][  0]LogCollectionManager: Loaded 0 collections in 0.003442 seconds
-[2020.04.04-03.17.36:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Collections/' took 0.01s
-[2020.04.04-03.17.36:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Developers/TheKB1000/Collections/' took 0.00s
-[2020.04.04-03.17.36:372][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Collections/' took 0.00s
-[2020.04.04-03.17.36:372][  0]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 3017 classes and 720 folders.
-[2020.04.04-03.17.36:386][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2020.04.04-03.17.36:630][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2020.04.04-03.17.36:658][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 3 folders.
-[2020.04.04-03.17.36:982][  0]LogSlate: Took 0.001115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.04.04-03.17.36:990][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.04.04-03.17.37:005][  0]LogSlate: Took 0.001101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.04.04-03.17.37:160][  0]LogRenderer: Reallocating scene render targets to support 924x436 Format 10 NumSamples 1 (Frame:1).
-[2020.04.04-03.17.37:454][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2020.04.04-03.17.37:454][  0]LogLoad: (Engine Initialization) Total time: 15.37 seconds
-[2020.04.04-03.17.37:454][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.04.04-03.17.37:539][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.04.04-03.17.37:606][  0]LogSlate: Took 0.001234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.04-03.17.37:695][  1]LogAssetRegistry: Asset discovery search completed in 8.7299 seconds
-[2020.04.04-03.17.37:708][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
-[2020.04.04-03.17.51:727][238]LogSlate: Took 0.000386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.04.04-03.17.52:092][238]LogAIModule: Creating AISystem for world Level
-[2020.04.04-03.17.52:110][238]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Level.Level
-[2020.04.04-03.17.52:157][238]LogUObjectHash: Compacting FUObjectHashTables data took   4.49ms
-[2020.04.04-03.17.52:171][238]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.04.04-03.17.52:171][238]LightingResults: New page: Lighting Build
-[2020.04.04-03.17.52:173][238]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
-[2020.04.04-03.17.52:174][238]LoadErrors: New page: Loading map: Level.umap
-[2020.04.04-03.17.52:175][238]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.04.04-03.17.52:175][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.04.04-03.17.52:175][238]MapCheck: New page: Map Check
-[2020.04.04-03.17.52:175][238]LightingResults: New page: Lighting Build
-[2020.04.04-03.17.52:216][238]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
-[2020.04.04-03.17.52:374][238]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.04.04-03.17.52:423][238]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
-[2020.04.04-03.17.52:453][238]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.04.04-03.17.52:453][238]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.176ms to complete.
-[2020.04.04-03.17.52:453][238]LogFileHelpers: Loading map 'Level' took 0.295
-[2020.04.04-03.18.03:036][489]LogSlate: Window 'Editor Preferences' being destroyed
-[2020.04.04-03.18.03:051][489]LogSlate: Window 'Editor Preferences' being destroyed
-[2020.04.04-03.18.16:794][795]LogSlate: Window 'Project Settings' being destroyed
-[2020.04.04-03.18.16:811][795]LogSlate: Window 'Project Settings' being destroyed
-[2020.04.04-03.18.28:732][202]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2020.04.04-03.19.20:995][942]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
-[2020.04.04-03.19.40:892][613]Cmd: TRANSACTION UNDO
-[2020.04.04-03.19.40:893][613]LogEditorTransaction: Undo Move Actors
-[2020.04.04-03.19.40:916][613]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2020.04.04-03.19.40:916][613]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
-[2020.04.04-03.19.40:916][613]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2020.04.04-03.19.45:085][745]Cmd: TRANSACTION UNDO
-[2020.04.04-03.19.45:085][745]LogEditorTransaction: Undo Move Actors
-[2020.04.04-03.19.45:112][745]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2020.04.04-03.19.45:112][745]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
-[2020.04.04-03.19.45:112][745]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2020.04.04-03.20.09:703][882]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
-[2020.04.04-03.20.21:984][602]Cmd: TRANSACTION UNDO
-[2020.04.04-03.20.21:984][602]LogEditorTransaction: Undo Move Actors
-[2020.04.04-03.20.21:996][602]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2020.04.04-03.20.21:997][602]LogGeometryMode: Warning: Unable to resolve BoxBrush Brush in new BSP, see above
-[2020.04.04-03.20.21:997][602]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2020.04.04-03.20.24:593][644]LogSlate: Window 'Extrude Coordinates Mode Warning' being destroyed
-[2020.04.04-03.20.29:605][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.04.04-03.20.56:177][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
-[2020.04.04-03.20.57:373][546]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2020.04.04-03.20.58:001][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
-[2020.04.04-03.20.59:090][642]Cmd: DELETE
-[2020.04.04-03.20.59:090][642]Cmd: ACTOR DELETE
-[2020.04.04-03.20.59:114][642]LogEditorActor: Deleted Actor: StaticMeshActor
-[2020.04.04-03.20.59:148][642]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
-[2020.04.04-03.20.59:156][642]LogEditorActor: Deleted 1 Actors (0.052 secs)
-[2020.04.04-03.21.29:417][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.04.04-03.21.32:158][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2020.04.04-03.21.33:010][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.04.04-03.21.33:414][616]Cmd: DUPLICATE
-[2020.04.04-03.21.33:414][616]Cmd: ACTOR DUPLICATE
-[2020.04.04-03.21.42:104][117]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2020.04.04-03.21.48:727][501]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2020.04.04-03.21.55:914][920]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_DoorFrame)
-[2020.04.04-03.22.09:838][741]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
-[2020.04.04-03.22.23:779][533]LogActorFactory: Actor Factory created Cube
-[2020.04.04-03.22.24:908][597]LogActorFactory: Actor Factory created Cube
-[2020.04.04-03.22.25:669][640]Cmd: TRANSACTION UNDO
-[2020.04.04-03.22.25:669][640]LogEditorTransaction: Undo Create Actors
-[2020.04.04-03.22.31:394][943]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2020.04.04-03.22.43:403][636]Cmd: TRANSACTION UNDO
-[2020.04.04-03.22.43:403][636]LogEditorTransaction: Undo Edit Brush Type
-[2020.04.04-03.22.49:255][962]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2020.04.04-03.22.53:354][186]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2020.04.04-03.23.14:649][417]Cmd: TRANSACTION UNDO
-[2020.04.04-03.23.14:649][417]LogEditorTransaction: Undo Move Actors
-[2020.04.04-03.23.14:667][417]LogGeometryMode: Warning: Unable to find 1 Poly(s) in new BSP
-[2020.04.04-03.23.14:668][417]LogGeometryMode: Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
-[2020.04.04-03.23.14:668][417]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2020.04.04-03.23.28:855][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.04.04-03.24.56:447][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.04.04-03.25.06:903][922]LogGeometryMode: Warning: Unable to find BoxBrush2 Brush(s) in new BSP
-[2020.04.04-03.25.06:903][922]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
-[2020.04.04-03.25.11:750][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
-[2020.04.04-03.25.11:788][201]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level7CB138F5467D25D5BED4CB968AFEC9DF.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
-[2020.04.04-03.25.11:837][201]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData94A38D0F42B539B823E968A75DF85EEF.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
-[2020.04.04-03.25.11:858][201]AssetCheck: New page: Asset Save: multiple assets
-[2020.04.04-03.25.11:858][201]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
-[2020.04.04-03.25.11:858][201]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
-[2020.04.04-03.25.26:914][990]LogMaterial: Display: Material /Game/Models/Broken_Concrete.Broken_Concrete needed to have new flag set bUsedWithStaticLighting !
-[2020.04.04-03.25.26:920][990]LogMaterial: Display: Missing cached shader map for material Broken_Concrete, compiling. 
-[2020.04.04-03.25.27:022][990]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
-[2020.04.04-03.25.27:022][990]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
-[2020.04.04-03.25.27:022][990]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
-[2020.04.04-03.25.33:933][344]MapCheck: New page: Map Check
-[2020.04.04-03.25.33:961][344]Cmd: MAP REBUILD ALLVISIBLE
-[2020.04.04-03.25.33:961][344]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2020.04.04-03.25.34:085][344]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=false
-[2020.04.04-03.25.34:143][344]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
-[2020.04.04-03.25.37:506][344]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.04.04-03.25.37:526][344]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
-[2020.04.04-03.25.37:526][344]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2020.04.04-03.25.37:526][344]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.04.04-03.25.37:544][344]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2020.04.04-03.25.37:544][344]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.04.04-03.25.37:572][344]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.04.04-03.25.37:589][344]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
-[2020.04.04-03.25.39:682][344]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
-[2020.04.04-03.25.39:682][344]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 6
-[2020.04.04-03.25.39:682][344]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
-[2020.04.04-03.25.39:682][344]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
-[2020.04.04-03.25.39:682][344]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
-[2020.04.04-03.25.39:682][344]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2020.04.04-03.25.39:682][344]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2020.04.04-03.25.39:682][344]TextureStreamingBuild: Display: Compiling optional shaders took 2.194 seconds.
-[2020.04.04-03.25.39:704][344]LogLevel: Display: Export Material TexCoord Scales took 0.021 seconds.
-[2020.04.04-03.25.39:709][344]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
-[2020.04.04-03.25.39:743][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
-[2020.04.04-03.25.39:749][344]LightingResults: New page: Lighting Build - Apr 3, 2020, 1:25:39 PM
-[2020.04.04-03.25.39:854][344]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2020.04.04-03.25.40:092][344]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2020.04.04-03.25.40:132][344]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2020.04.04-03.25.41:287][344]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2020.04.04-03.25.41:287][344]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16132
-[2020.04.04-03.25.45:746][344]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2020.04.04-03.25.45:747][344]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2020.04.04-03.25.45:747][344]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2020.04.04-03.25.45:747][344]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2020.04.04-03.25.45:747][344]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2020.04.04-03.25.45:747][344]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2020.04.04-03.25.46:604][344]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2020.04.04-03.25.46:604][344]MapCheck: New page: Level - Apr 3, 2020, 1:25:46 PM
-[2020.04.04-03.25.46:605][344]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2020.04.04-03.25.46:620][344]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 15.959ms to complete.
-[2020.04.04-03.25.46:626][344]LogEditorBuildUtils: Build time 0:12
-[2020.04.04-03.25.46:682][344]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Cocrete_Wall_MI, compiling. 
-[2020.04.04-03.25.46:710][344]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
-[2020.04.04-03.25.46:711][344]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
-[2020.04.04-03.25.46:711][344]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Cocrete_Wall_MI, compiling. 
-[2020.04.04-03.25.46:809][344]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
-[2020.04.04-03.25.46:944][345]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
-[2020.04.04-03.25.46:978][345]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
-[2020.04.04-03.25.47:189][346]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Broken_Concrete, compiling. 
-[2020.04.04-03.25.47:286][346]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Broken_Concrete, compiling. 
-[2020.04.04-03.25.47:354][347]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Wood, compiling. 
-[2020.04.04-03.25.47:393][347]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Wood, compiling. 
-[2020.04.04-03.25.47:448][348]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Brass, compiling. 
-[2020.04.04-03.25.47:475][348]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer Brass, compiling. 
-[2020.04.04-03.25.51:489][350]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
-[2020.04.04-03.25.51:489][350]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
-[2020.04.04-03.25.51:489][350]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
-[2020.04.04-03.25.51:489][350]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
-[2020.04.04-03.25.51:489][350]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
-[2020.04.04-03.25.51:489][350]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
-[2020.04.04-03.25.52:023][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
-[2020.04.04-03.25.57:124][372]Job is a success!
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:      Bricks at depth
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:      Bricks in each level
-[2020.04.04-03.25.57:677][373]LogVolumetricLightmapImport:          Level 			 10 bricks 	 100.0% (Persistent Level)
-[2020.04.04-03.25.57:837][373]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2020.04.04-03.25.57:837][373]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2020.04.04-03.25.57:837][373]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
-[2020.04.04-03.25.57:837][373]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
-[2020.04.04-03.25.57:837][373]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2020.04.04-03.25.57:837][373]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2020.04.04-03.25.57:976][373]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
-[2020.04.04-03.25.57:976][373]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 128X128)
-[2020.04.04-03.25.57:976][373]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X128)
-[2020.04.04-03.25.57:977][373]Lightmass on LAPTOP-7TARG8CR: 2.72 sec total, 237 ms importing, 543 ms setup, 198 ms photons, 1.61 sec processing, 0 ms extra exporting [20/20 mappings]. Threads: 6.47 sec total, 1.64 sec processing.
-[2020.04.04-03.25.57:981][373]LogStaticLightingSystem: Level_BuiltData storing lightmap data for 10 meshes in 4 LightmapResourceClusters (2.5 Meshes per cluster).
-[2020.04.04-03.25.57:985][373]LogMaterial: Display: Material /Game/Models/Wood.Wood needed to have new flag set bUsedWithStaticLighting !
-[2020.04.04-03.25.57:992][373]LogMaterial: Display: Missing cached shader map for material Wood, compiling. 
-[2020.04.04-03.25.58:024][373]LogMaterial: Display: Material /Game/Models/Brass.Brass needed to have new flag set bUsedWithStaticLighting !
-[2020.04.04-03.25.58:035][373]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
-[2020.04.04-03.25.58:035][373]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 15
-[2020.04.04-03.25.58:035][373]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
-[2020.04.04-03.25.58:035][373]LogMaterial: Display: Missing cached shader map for material Brass, compiling. 
-[2020.04.04-03.26.02:217][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
-[2020.04.04-03.26.02:255][373]LogStaticLightingSystem: Illumination: 22.1 sec (173 ms encoding lightmaps, 31 ms encoding shadowmaps)
-[2020.04.04-03.26.02:255][373]LogStaticLightingSystem: Lightmap texture memory:  0.6 MB (0.5 MB streaming, 0.1 MB non-streaming), 6 textures
-[2020.04.04-03.26.02:255][373]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.3 MB streaming, 0.1 MB non-streaming), 3 textures
-[2020.04.04-03.26.02:803][373]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
-[2020.04.04-03.26.02:804][373]DumpUnbuiltLightIteractions
-[2020.04.04-03.26.02:804][373]Lights with unbuilt interactions: 0
-[2020.04.04-03.26.02:804][373]
-[2020.04.04-03.26.02:804][373]Primitives with unbuilt interactions: 0
-[2020.04.04-03.26.10:083][373]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 15
-[2020.04.04-03.26.10:083][373]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 9
-[2020.04.04-03.26.10:083][373]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
-[2020.04.04-03.26.10:083][373]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
-[2020.04.04-03.26.10:083][373]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
-[2020.04.04-03.26.10:175][374]Cmd: MAP CHECK NOTIFYRESULTS
-[2020.04.04-03.26.10:176][374]MapCheck: New page: Level - Apr 3, 2020, 1:26:10 PM
-[2020.04.04-03.26.10:178][374]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.753ms to complete.
-[2020.04.04-03.28.45:623][838]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
-[2020.04.04-03.28.45:655][838]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level62568E184889C9C27ADE25BE3C3E0DF7.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
-[2020.04.04-03.28.45:724][838]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData053489074D3699D0376010B92CC6C0BA.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
-[2020.04.04-03.28.45:760][838]AssetCheck: New page: Asset Save: multiple assets
-[2020.04.04-03.28.45:761][838]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
-[2020.04.04-03.28.45:761][838]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
-[2020.04.04-04.25.44:986][913]LogHttp: Warning: 000002196FAC0400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBA6837C6-48F2-2E5C-63D7-339E24F731F3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
-[2020.04.04-04.25.44:987][913]LogHttp: Warning: 000002196FAC0400: request failed, libcurl error: 56 (Failure when receiving data from the peer)
-[2020.04.04-04.25.44:987][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2197bbf3f70 [can pipeline])
-[2020.04.04-04.25.44:987][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 1 (Re-using existing connection! (#4) with host datarouter.ol.epicgames.com)
-[2020.04.04-04.25.44:987][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.214.57.13) port 443 (#4))
-[2020.04.04-04.25.44:987][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 3 (We are completely uploaded and fine)
-[2020.04.04-04.25.44:987][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
-[2020.04.04-04.25.44:988][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 5 (Connection died, retrying a fresh connect)
-[2020.04.04-04.25.44:988][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 6 (necessary data rewind wasn't possible)
-[2020.04.04-04.25.44:989][913]LogHttp: Warning: 000002196FAC0400: libcurl info message cache 7 (Closing connection 4)
-[2020.04.04-04.25.45:267][914]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBA6837C6-48F2-2E5C-63D7-339E24F731F3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.1-10757647%2B%2B%2BUE4%2BRelease-4.24&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2020.04.04-04.27.59:699][605]LogRenderer: Reallocating scene render targets to support 1524x816 Format 10 NumSamples 1 (Frame:23337).
-[2020.04.04-04.27.59:800][606]LogRenderer: Reallocating scene render targets to support 1540x828 Format 10 NumSamples 1 (Frame:23340).
-[2020.04.04-04.28.26:162][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2020.04.04-04.28.26:165][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level' took 0.035
-[2020.04.04-04.28.26:167][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Cocrete_Wall_MI] ([1] browsable assets)...
-[2020.04.04-04.28.26:201][387]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Models/Cocrete_Wall_MI.Cocrete_Wall_MI]
-[2020.04.04-04.28.26:201][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Cocrete_Wall_MI]
-[2020.04.04-04.28.26:222][387]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Cocrete_Wall_MI_Auto137E741C14CCFB53EBEA9ED9A1530470D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Autosaves/Game/Models/Cocrete_Wall_MI_Auto1.uasset'
-[2020.04.04-04.28.26:225][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Broken_Concrete] ([1] browsable assets)...
-[2020.04.04-04.28.26:245][387]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Broken_Concrete.Broken_Concrete]
-[2020.04.04-04.28.26:245][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Broken_Concrete]
-[2020.04.04-04.28.26:266][387]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Broken_Concrete_Auto1498038EB4FA6FEA12E82BEA4E6C729A6.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Autosaves/Game/Models/Broken_Concrete_Auto1.uasset'
-[2020.04.04-04.28.26:268][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Brass] ([1] browsable assets)...
-[2020.04.04-04.28.26:288][387]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Brass.Brass]
-[2020.04.04-04.28.26:288][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Brass]
-[2020.04.04-04.28.26:305][387]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Brass_Auto1F3050B7842C0680DB2D114B23DDF2065.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Autosaves/Game/Models/Brass_Auto1.uasset'
-[2020.04.04-04.28.26:307][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Wood] ([1] browsable assets)...
-[2020.04.04-04.28.26:331][387]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Models/Wood.Wood]
-[2020.04.04-04.28.26:331][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Wood]
-[2020.04.04-04.28.26:351][387]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Wood_Auto12A4A380B4CC63BF7478CC4886A7AFC5B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Autosaves/Game/Models/Wood_Auto1.uasset'
-[2020.04.04-04.28.26:353][387]LogFileHelpers: Auto-saving content packages took 0.187
-[2020.04.04-04.35.06:082][386]Cmd: SELECT NONE
-[2020.04.04-04.35.06:123][387]LogSlate: Took 0.000960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
+[2020.04.08-21.19.32:381][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.08-21.19.32:381][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.08-21.19.32:382][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
+[2020.04.08-21.19.32:382][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
+[2020.04.08-21.19.32:386][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.08-21.19.32:387][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:387][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.08-21.19.32:388][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.08-21.19.32:388][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.08-21.19.32:388][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.08-21.19.32:392][  0]LogHAL: Display: Platform has ~ 8 GB [8462237696 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.08-21.19.32:392][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.08-21.19.32:392][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.08-21.19.32:392][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.08-21.19.32:393][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Scalability.ini]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.08-21.19.32:394][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.08-21.19.32:395][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Config/Windows/Engine.ini]
+[2020.04.08-21.19.32:395][  0]LogInit: Computer: LAPTOP-7TARG8CR
+[2020.04.08-21.19.32:395][  0]LogInit: User: TheKB1000
+[2020.04.08-21.19.32:395][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.08-21.19.32:395][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.08-21.19.32:395][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.04.08-21.19.32:395][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.08-21.19.32:395][  0]LogMemory: Process Physical Memory: 105.46 MB used, 105.46 MB peak
+[2020.04.08-21.19.32:395][  0]LogMemory: Process Virtual Memory: 100.06 MB used, 100.06 MB peak
+[2020.04.08-21.19.32:395][  0]LogMemory: Physical Memory: 5122.49 MB used,  2947.73 MB free, 8070.22 MB total
+[2020.04.08-21.19.32:395][  0]LogMemory: Virtual Memory: 5121.11 MB used,  134212608.00 MB free, 134217728.00 MB total
+[2020.04.08-21.19.32:400][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.08-21.19.32:463][  0]LogInit: Using OS detected language (en-US).
+[2020.04.08-21.19.32:463][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.08-21.19.32:464][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.08-21.19.32:689][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.08-21.19.32:730][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.08-21.19.32:730][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.08-21.19.32:936][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.08-21.19.32:936][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.08-21.19.32:936][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.08-21.19.32:936][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.08-21.19.33:020][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2020.04.08-21.19.33:021][  0]LogD3D11RHI:       4055/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.08-21.19.33:038][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.04.08-21.19.33:038][  0]LogD3D11RHI:       128/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.08-21.19.33:045][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.08-21.19.33:045][  0]LogD3D11RHI:       0/0/4035 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.08-21.19.33:045][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.08-21.19.33:108][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.08-21.19.33:108][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2020.04.08-21.19.33:108][  0]LogWindows: EnumDisplayDevices:
+[2020.04.08-21.19.33:109][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.04.08-21.19.33:110][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.08-21.19.33:111][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.08-21.19.33:111][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.04.08-21.19.33:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2020.04.08-21.19.33:111][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.04.08-21.19.33:111][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.04.08-21.19.33:111][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2020.04.08-21.19.33:168][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.08-21.19.33:168][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.08-21.19.33:188][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.04.08-21.19.33:845][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.08-21.19.33:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.08-21.19.33:895][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.08-21.19.33:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.08-21.19.33:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.08-21.19.33:936][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.08-21.19.33:946][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.08-21.19.33:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.08-21.19.33:970][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.08-21.19.33:981][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.08-21.19.33:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.08-21.19.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.08-21.19.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.08-21.19.34:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.08-21.19.34:052][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.08-21.19.34:065][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.08-21.19.34:078][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.08-21.19.34:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.08-21.19.34:101][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.08-21.19.34:101][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.08-21.19.34:116][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.08-21.19.34:202][  0]LogShaderCompilers: Guid format shader working directory is -60 characters bigger than the processId version (../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Intermediate/Shaders/WorkingDirectory/7104/).
+[2020.04.08-21.19.34:202][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TheK-B1000/AppData/Local/Temp/UnrealShaderWorkingDir/0B7529724D09FD408DD7DE8FA2BE6E38/'.
+[2020.04.08-21.19.34:203][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.08-21.19.34:203][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.08-21.19.34:203][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.08-21.19.35:234][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.08-21.19.35:323][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.08-21.19.35:323][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.08-21.19.35:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.08-21.19.35:324][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.08-21.19.35:324][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.08-21.19.35:324][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.08-21.19.35:338][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.08-21.19.35:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.08-21.19.35:338][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.08-21.19.35:340][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TheK-B1000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.08-21.19.35:340][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.08-21.19.35:340][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.08-21.19.35:376][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.08-21.19.35:379][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.08-21.19.35:380][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.08-21.19.35:456][  0]LogAssetRegistry: FAssetRegistry took 0.0037 seconds to start up
+[2020.04.08-21.19.35:831][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.08-21.19.36:042][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.08-21.19.36:042][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.08-21.19.36:042][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.08-21.19.36:042][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.08-21.19.36:042][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.08-21.19.36:057][  0]LogNetVersion: BuildingEscape2 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 936750518)
+[2020.04.08-21.19.37:381][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.052366 seconds
+[2020.04.08-21.19.37:390][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.08-21.19.37:390][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.08-21.19.37:390][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.08-21.19.37:985][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.08-21.19.37:991][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.08-21.19.38:979][  0]SourceControl: Source control is disabled
+[2020.04.08-21.19.38:979][  0]SourceControl: Source control is disabled
+[2020.04.08-21.19.38:984][  0]SourceControl: Source control is disabled
+[2020.04.08-21.19.38:990][  0]SourceControl: Source control is disabled
+[2020.04.08-21.19.38:993][  0]SourceControl: Source control is disabled
+[2020.04.08-21.19.39:207][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.08-21.19.39:232][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.08-21.19.39:233][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.08-21.19.39:372][  0]LogOcInput: OculusInput pre-init called
+[2020.04.08-21.19.39:389][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.08-21.19.39:390][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.08-21.19.39:496][  0]LogEngine: Initializing Engine...
+[2020.04.08-21.19.39:498][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.08-21.19.39:499][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.08-21.19.40:000][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.08-21.19.40:012][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.08-21.19.40:046][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.08-21.19.40:046][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.08-21.19.40:046][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.08-21.19.40:093][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.08-21.19.40:744][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.08-21.19.40:752][  0]LogInit: FAudioDevice initialized.
+[2020.04.08-21.19.40:752][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.08-21.19.40:959][  0]LogDerivedDataCache: Saved boot cache 0.21s 78MB C:/Users/TheK-B1000/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.08-21.19.40:959][  0]LogInit: Texture streaming: Enabled
+[2020.04.08-21.19.40:980][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.08-21.19.40:980][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.08-21.19.40:988][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.08-21.19.41:040][  0]LogInit: Transaction tracking system initialized
+[2020.04.08-21.19.41:061][  0]BlueprintLog: New page: Editor Load
+[2020.04.08-21.19.41:133][  0]LocalizationService: Localization service is disabled
+[2020.04.08-21.19.41:184][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
+[2020.04.08-21.19.41:184][  0]LogLinker: Warning: Failed to load '/Game/CloseCombat/CloseCombat_Greeting_Tutorial': Can't find file.
+[2020.04.08-21.19.41:184][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/CloseCombat/CloseCombat_Greeting_Tutorial.CloseCombat_Greeting_Tutorial_C'
+[2020.04.08-21.19.41:501][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/' took 0.01s
+[2020.04.08-21.19.41:501][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.08-21.19.41:502][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.08-21.19.42:564][  0]SourceControl: Source control is disabled
+[2020.04.08-21.19.42:564][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.08-21.19.42:570][  0]LightingResults: New page: Lighting Build
+[2020.04.08-21.19.42:571][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.08-21.19.42:571][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.08-21.19.42:571][  0]MapCheck: New page: Map Check
+[2020.04.08-21.19.42:571][  0]LightingResults: New page: Lighting Build
+[2020.04.08-21.19.42:603][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.04.08-21.19.42:842][  0]LogAIModule: Creating AISystem for world Level
+[2020.04.08-21.19.42:853][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.08-21.19.42:886][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2020.04.08-21.19.42:886][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.08-21.19.42:887][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.193ms to complete.
+[2020.04.08-21.19.42:887][  0]LogFileHelpers: Loading map 'Level' took 0.323
+[2020.04.08-21.19.43:093][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-21.19.43:105][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-21.19.43:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-21.19.43:126][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.08-21.19.43:146][  0]LogCollectionManager: Loaded 0 collections in 0.002720 seconds
+[2020.04.08-21.19.43:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Collections/' took 0.00s
+[2020.04.08-21.19.43:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Developers/TheKB1000/Collections/' took 0.00s
+[2020.04.08-21.19.43:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Collections/' took 0.00s
+[2020.04.08-21.19.43:178][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 3018 classes and 720 folders.
+[2020.04.08-21.19.43:191][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.08-21.19.43:374][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.08-21.19.43:387][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2020.04.08-21.19.43:571][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.08-21.19.43:576][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.08-21.19.43:582][  0]LogSlate: Took 0.000972 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.08-21.19.43:682][  0]LogRenderer: Reallocating scene render targets to support 924x436 Format 10 NumSamples 1 (Frame:1).
+[2020.04.08-21.19.43:882][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.04.08-21.19.43:882][  0]LogLoad: (Engine Initialization) Total time: 13.35 seconds
+[2020.04.08-21.19.43:882][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.08-21.19.43:954][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.08-21.19.43:982][  0]LogSlate: Took 0.001071 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.08-21.19.44:203][  1]LogAssetRegistry: Asset discovery search completed in 8.7485 seconds
+[2020.04.08-21.19.44:208][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
+[2020.04.08-21.21.14:996][412]LogSlate: Took 0.000499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.08-21.21.15:024][412]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/BuildingEscape2.OpenDoor
+[2020.04.08-21.21.17:858][424]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation

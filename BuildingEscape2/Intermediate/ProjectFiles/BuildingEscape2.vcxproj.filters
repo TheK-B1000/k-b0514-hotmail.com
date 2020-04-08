@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BuildingEscape2.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8014A236-1121-43EB-B7C4-1CA90A6D45EE}</UniqueIdentifier>
+      <UniqueIdentifier>{1F89B623-EC4A-4E46-BDBD-E65A65567D53}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BuildingEscape2.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FB37D978-3F93-4837-9C40-DBB62CA568FA}</UniqueIdentifier>
+      <UniqueIdentifier>{4A665BB5-6B4C-4F48-8B80-C0C392A9709E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\BuildingEscape2">
-      <UniqueIdentifier>{7DDF4DC6-1E1A-4F35-AA54-2BE6E0A5C9B0}</UniqueIdentifier>
+      <UniqueIdentifier>{5B2AA481-D78B-4AC2-9858-9CA3FB50474C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BuildingEscape2\BuildingEscape2.Build.cs">
       <Filter>Source\BuildingEscape2</Filter>
@@ -42,14 +42,20 @@
       <Filter>Source\BuildingEscape2</Filter>
     </ClInclude>
     <Filter Include="Source\BuildingEscape2\Private">
-      <UniqueIdentifier>{1D94FA63-D87C-4D53-8E7D-76A5DB91A8FC}</UniqueIdentifier>
+      <UniqueIdentifier>{3F0D6866-9D59-4AFD-86D9-39292865BF8E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\BuildingEscape2\Private\OpenDoor.cpp">
+      <Filter>Source\BuildingEscape2\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\BuildingEscape2\Private\WorldPosition.cpp">
       <Filter>Source\BuildingEscape2\Private</Filter>
     </ClCompile>
     <Filter Include="Source\BuildingEscape2\Public">
-      <UniqueIdentifier>{6F7FD3DB-D8D7-4960-81E5-F0366215E649}</UniqueIdentifier>
+      <UniqueIdentifier>{3176DEB8-0F6F-49CD-9CF3-9F87A31509A2}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\BuildingEscape2\Public\OpenDoor.h">
+      <Filter>Source\BuildingEscape2\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\BuildingEscape2\Public\WorldPosition.h">
       <Filter>Source\BuildingEscape2\Public</Filter>
     </ClInclude>
