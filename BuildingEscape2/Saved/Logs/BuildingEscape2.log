@@ -6446,3 +6446,748 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.09-05.09.20:611][346]AssetCheck: New page: Asset Save: multiple assets
 [2020.04.09-05.09.20:611][346]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
 [2020.04.09-05.09.20:611][346]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
+[2020.04.09-05.20.57:885][829]LogSlate: Window 'Project Settings' being destroyed
+[2020.04.09-05.20.57:894][829]LogSlate: Window 'Project Settings' being destroyed
+[2020.04.09-05.23.31:899][ 16]Candidate modules for hot reload:
+[2020.04.09-05.23.31:899][ 16]  BuildingEscape2
+[2020.04.09-05.23.31:899][ 16]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape2,521 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject"  -IgnoreJunk]
+[2020.04.09-05.23.31:966][ 16]Warning: Starting HotReload took  0.1s.
+[2020.04.09-05.24.34:897][782]CompilerResultsLog: New page: Compilation - Apr 8, 2020, 3:24:34 PM
+[2020.04.09-05.24.34:897][782]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape).
+[2020.04.09-05.24.34:900][782]CompilerResultsLog: Parsing headers for BuildingEscape2Editor
+[2020.04.09-05.24.34:900][782]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\BuildingEscape2.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscape2Editor\Development\BuildingEscape2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.09-05.24.34:900][782]CompilerResultsLog: Reflection code generated for BuildingEscape2Editor in 22.4320212 seconds
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: Building BuildingEscape2Editor...
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: [Upgrade]
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BuildingEscape2Editor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: [Upgrade]
+[2020.04.09-05.24.34:901][782]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.09-05.24.34:902][782]CompilerResultsLog:   [1/4] OpenDoor.cpp
+[2020.04.09-05.24.34:902][782]CompilerResultsLog:   [2/4] UE4Editor-BuildingEscape2-0521.lib
+[2020.04.09-05.24.34:902][782]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0521.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0521.exp
+[2020.04.09-05.24.34:904][782]CompilerResultsLog:   [3/4] UE4Editor-BuildingEscape2-0521.dll
+[2020.04.09-05.24.34:904][782]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0521.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0521.suppressed.exp
+[2020.04.09-05.24.34:904][782]CompilerResultsLog:   [4/4] BuildingEscape2Editor.target
+[2020.04.09-05.24.34:904][782]CompilerResultsLog: Total time in Parallel executor: 32.50 seconds
+[2020.04.09-05.24.34:904][782]CompilerResultsLog: Total execution time: 61.69 seconds
+[2020.04.09-05.24.34:904][782]LogMainFrame: MainFrame: Module compiling took 63.026 seconds
+[2020.04.09-05.24.34:957][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.04.09-05.24.35:039][782]LogContentBrowser: Native class hierarchy populated in 0.0294 seconds. Added 3020 classes and 723 folders.
+[2020.04.09-05.24.35:039][782]Display: HotReload took 63.2s.
+[2020.04.09-05.24.40:063][852]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.09-05.24.40:082][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-05.24.40:082][852]PIE: New page: PIE session: Level (Apr 8, 2020, 3:24:40 PM)
+[2020.04.09-05.24.40:082][852]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level
+[2020.04.09-05.24.40:099][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017050s)
+[2020.04.09-05.24.40:101][852]LogAIModule: Creating AISystem for world Level
+[2020.04.09-05.24.40:102][852]LogPlayLevel: PIE: World Init took: (0.002351s)
+[2020.04.09-05.24.40:102][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level.Level to /Game/Levels/UEDPIE_0_Level.Level (0.019605s)
+[2020.04.09-05.24.40:135][852]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.04.09-05.24.40:137][852]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.09-05.24.40:137][852]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.09-05.24.40:137][852]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.09-05.24.40:137][852]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.09-05.24.40:137][852]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.09-05.24.40:137][852]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.09-05.24.40:137][852]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.09-05.24.40:137][852]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.09-05.24.40:138][852]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.09-05.24.40:138][852]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: Is Default: Yes
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: Channel Order:
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.09-05.24.40:172][852]LogAudioMixer: Display: 1: FrontRight
+[2020.04.09-05.24.40:295][852]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.09-05.24.40:297][852]LogInit: FAudioDevice initialized.
+[2020.04.09-05.24.40:315][852]LogLoad: Game class is 'GameModeBase'
+[2020.04.09-05.24.40:318][852]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2020.04.08-22.24.40
+[2020.04.09-05.24.40:318][852]LogWorld: Bringing up level for play took: 0.001705
+[2020.04.09-05.24.40:319][852]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.04.09-05.24.40:322][852]LogTemp: Warning: Object name is: Cube_2
+[2020.04.09-05.24.40:322][852]LogTemp: Warning: Cube_2 is at position: X=-130.000 Y=-240.000 Z=30.000 .
+[2020.04.09-05.24.40:323][852]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level -0.186
+[2020.04.09-05.24.40:323][852]LogTemp: Warning: Object is at: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.09-05.24.40:323][852]LogTemp: Warning: Object Yaw is: 0.000000
+[2020.04.09-05.24.40:323][852]LogTemp: Warning: Object is at: P=0.000000 Y=90.000076 R=0.000000
+[2020.04.09-05.24.40:323][852]LogTemp: Warning: Object Yaw is: 90.000076
+[2020.04.09-05.24.40:342][853]LogTemp: Warning: Object is at: P=0.000000 Y=1.800000 R=0.000000
+[2020.04.09-05.24.40:342][853]LogTemp: Warning: Object Yaw is: 1.800000
+[2020.04.09-05.24.40:342][853]LogTemp: Warning: Object is at: P=0.000000 Y=91.800064 R=0.000000
+[2020.04.09-05.24.40:342][853]LogTemp: Warning: Object Yaw is: 91.800064
+[2020.04.09-05.24.40:429][854]LogTemp: Warning: Object is at: P=0.000000 Y=3.564002 R=0.000000
+[2020.04.09-05.24.40:429][854]LogTemp: Warning: Object Yaw is: 3.564002
+[2020.04.09-05.24.40:429][854]LogTemp: Warning: Object is at: P=0.000000 Y=93.564079 R=0.000000
+[2020.04.09-05.24.40:429][854]LogTemp: Warning: Object Yaw is: 93.564079
+[2020.04.09-05.24.40:502][855]LogTemp: Warning: Object is at: P=0.000000 Y=5.292726 R=0.000000
+[2020.04.09-05.24.40:502][855]LogTemp: Warning: Object Yaw is: 5.292726
+[2020.04.09-05.24.40:502][855]LogTemp: Warning: Object is at: P=0.000000 Y=95.292801 R=0.000000
+[2020.04.09-05.24.40:502][855]LogTemp: Warning: Object Yaw is: 95.292801
+[2020.04.09-05.24.40:563][856]LogTemp: Warning: Object is at: P=0.000000 Y=6.986878 R=0.000000
+[2020.04.09-05.24.40:563][856]LogTemp: Warning: Object Yaw is: 6.986878
+[2020.04.09-05.24.40:563][856]LogTemp: Warning: Object is at: P=0.000000 Y=96.986946 R=0.000000
+[2020.04.09-05.24.40:563][856]LogTemp: Warning: Object Yaw is: 96.986946
+[2020.04.09-05.24.40:630][857]LogTemp: Warning: Object is at: P=0.000000 Y=8.647150 R=0.000000
+[2020.04.09-05.24.40:630][857]LogTemp: Warning: Object Yaw is: 8.647150
+[2020.04.09-05.24.40:630][857]LogTemp: Warning: Object is at: P=0.000000 Y=98.647209 R=0.000000
+[2020.04.09-05.24.40:630][857]LogTemp: Warning: Object Yaw is: 98.647209
+[2020.04.09-05.24.40:697][858]LogTemp: Warning: Object is at: P=0.000000 Y=10.274214 R=0.000000
+[2020.04.09-05.24.40:697][858]LogTemp: Warning: Object Yaw is: 10.274214
+[2020.04.09-05.24.40:698][858]LogTemp: Warning: Object is at: P=0.000000 Y=100.274292 R=0.000000
+[2020.04.09-05.24.40:698][858]LogTemp: Warning: Object Yaw is: 100.274292
+[2020.04.09-05.24.40:764][859]LogTemp: Warning: Object is at: P=0.000000 Y=11.868739 R=0.000000
+[2020.04.09-05.24.40:764][859]LogTemp: Warning: Object Yaw is: 11.868739
+[2020.04.09-05.24.40:764][859]LogTemp: Warning: Object is at: P=0.000000 Y=101.868813 R=0.000000
+[2020.04.09-05.24.40:764][859]LogTemp: Warning: Object Yaw is: 101.868813
+[2020.04.09-05.24.40:830][860]LogTemp: Warning: Object is at: P=0.000000 Y=13.431366 R=0.000000
+[2020.04.09-05.24.40:831][860]LogTemp: Warning: Object Yaw is: 13.431366
+[2020.04.09-05.24.40:831][860]LogTemp: Warning: Object is at: P=0.000000 Y=103.431458 R=0.000000
+[2020.04.09-05.24.40:831][860]LogTemp: Warning: Object Yaw is: 103.431458
+[2020.04.09-05.24.40:896][861]LogTemp: Warning: Object is at: P=0.000000 Y=14.962739 R=0.000000
+[2020.04.09-05.24.40:896][861]LogTemp: Warning: Object Yaw is: 14.962739
+[2020.04.09-05.24.40:896][861]LogTemp: Warning: Object is at: P=0.000000 Y=104.962830 R=0.000000
+[2020.04.09-05.24.40:896][861]LogTemp: Warning: Object Yaw is: 104.962830
+[2020.04.09-05.24.40:963][862]LogTemp: Warning: Object is at: P=0.000000 Y=16.463476 R=0.000000
+[2020.04.09-05.24.40:963][862]LogTemp: Warning: Object Yaw is: 16.463476
+[2020.04.09-05.24.40:963][862]LogTemp: Warning: Object is at: P=0.000000 Y=106.463562 R=0.000000
+[2020.04.09-05.24.40:963][862]LogTemp: Warning: Object Yaw is: 106.463562
+[2020.04.09-05.24.41:030][863]LogTemp: Warning: Object is at: P=0.000000 Y=17.934198 R=0.000000
+[2020.04.09-05.24.41:030][863]LogTemp: Warning: Object Yaw is: 17.934198
+[2020.04.09-05.24.41:030][863]LogTemp: Warning: Object is at: P=0.000000 Y=107.934265 R=0.000000
+[2020.04.09-05.24.41:030][863]LogTemp: Warning: Object Yaw is: 107.934265
+[2020.04.09-05.24.41:097][864]LogTemp: Warning: Object is at: P=0.000000 Y=19.375500 R=0.000000
+[2020.04.09-05.24.41:097][864]LogTemp: Warning: Object Yaw is: 19.375500
+[2020.04.09-05.24.41:097][864]LogTemp: Warning: Object is at: P=0.000000 Y=109.375572 R=0.000000
+[2020.04.09-05.24.41:097][864]LogTemp: Warning: Object Yaw is: 109.375572
+[2020.04.09-05.24.41:163][865]LogTemp: Warning: Object is at: P=0.000000 Y=20.787973 R=0.000000
+[2020.04.09-05.24.41:163][865]LogTemp: Warning: Object Yaw is: 20.787973
+[2020.04.09-05.24.41:163][865]LogTemp: Warning: Object is at: P=0.000000 Y=110.788033 R=0.000000
+[2020.04.09-05.24.41:163][865]LogTemp: Warning: Object Yaw is: 110.788033
+[2020.04.09-05.24.41:229][866]LogTemp: Warning: Object is at: P=0.000000 Y=22.172197 R=0.000000
+[2020.04.09-05.24.41:230][866]LogTemp: Warning: Object Yaw is: 22.172197
+[2020.04.09-05.24.41:230][866]LogTemp: Warning: Object is at: P=0.000000 Y=112.172272 R=0.000000
+[2020.04.09-05.24.41:230][866]LogTemp: Warning: Object Yaw is: 112.172272
+[2020.04.09-05.24.41:296][867]LogTemp: Warning: Object is at: P=0.000000 Y=23.528742 R=0.000000
+[2020.04.09-05.24.41:296][867]LogTemp: Warning: Object Yaw is: 23.528742
+[2020.04.09-05.24.41:296][867]LogTemp: Warning: Object is at: P=0.000000 Y=113.528816 R=0.000000
+[2020.04.09-05.24.41:296][867]LogTemp: Warning: Object Yaw is: 113.528816
+[2020.04.09-05.24.41:364][868]LogTemp: Warning: Object is at: P=0.000000 Y=24.858164 R=0.000000
+[2020.04.09-05.24.41:364][868]LogTemp: Warning: Object Yaw is: 24.858164
+[2020.04.09-05.24.41:364][868]LogTemp: Warning: Object is at: P=0.000000 Y=114.858246 R=0.000000
+[2020.04.09-05.24.41:364][868]LogTemp: Warning: Object Yaw is: 114.858246
+[2020.04.09-05.24.41:429][869]LogTemp: Warning: Object is at: P=0.000000 Y=26.161005 R=0.000000
+[2020.04.09-05.24.41:429][869]LogTemp: Warning: Object Yaw is: 26.161005
+[2020.04.09-05.24.41:429][869]LogTemp: Warning: Object is at: P=0.000000 Y=116.161049 R=0.000000
+[2020.04.09-05.24.41:429][869]LogTemp: Warning: Object Yaw is: 116.161049
+[2020.04.09-05.24.41:496][870]LogTemp: Warning: Object is at: P=0.000000 Y=27.437794 R=0.000000
+[2020.04.09-05.24.41:496][870]LogTemp: Warning: Object Yaw is: 27.437794
+[2020.04.09-05.24.41:496][870]LogTemp: Warning: Object is at: P=0.000000 Y=117.437859 R=0.000000
+[2020.04.09-05.24.41:496][870]LogTemp: Warning: Object Yaw is: 117.437859
+[2020.04.09-05.24.41:563][871]LogTemp: Warning: Object is at: P=0.000000 Y=28.689054 R=0.000000
+[2020.04.09-05.24.41:563][871]LogTemp: Warning: Object Yaw is: 28.689054
+[2020.04.09-05.24.41:563][871]LogTemp: Warning: Object is at: P=0.000000 Y=118.689102 R=0.000000
+[2020.04.09-05.24.41:563][871]LogTemp: Warning: Object Yaw is: 118.689102
+[2020.04.09-05.24.41:629][872]LogTemp: Warning: Object is at: P=0.000000 Y=29.915295 R=0.000000
+[2020.04.09-05.24.41:629][872]LogTemp: Warning: Object Yaw is: 29.915295
+[2020.04.09-05.24.41:629][872]LogTemp: Warning: Object is at: P=0.000000 Y=119.915359 R=0.000000
+[2020.04.09-05.24.41:629][872]LogTemp: Warning: Object Yaw is: 119.915359
+[2020.04.09-05.24.41:696][873]LogTemp: Warning: Object is at: P=0.000000 Y=31.117012 R=0.000000
+[2020.04.09-05.24.41:696][873]LogTemp: Warning: Object Yaw is: 31.117012
+[2020.04.09-05.24.41:696][873]LogTemp: Warning: Object is at: P=0.000000 Y=121.117058 R=0.000000
+[2020.04.09-05.24.41:696][873]LogTemp: Warning: Object Yaw is: 121.117058
+[2020.04.09-05.24.41:763][874]LogTemp: Warning: Object is at: P=0.000000 Y=32.294678 R=0.000000
+[2020.04.09-05.24.41:763][874]LogTemp: Warning: Object Yaw is: 32.294678
+[2020.04.09-05.24.41:763][874]LogTemp: Warning: Object is at: P=0.000000 Y=122.294708 R=0.000000
+[2020.04.09-05.24.41:763][874]LogTemp: Warning: Object Yaw is: 122.294708
+[2020.04.09-05.24.41:829][875]LogTemp: Warning: Object is at: P=0.000000 Y=33.448780 R=0.000000
+[2020.04.09-05.24.41:829][875]LogTemp: Warning: Object Yaw is: 33.448780
+[2020.04.09-05.24.41:829][875]LogTemp: Warning: Object is at: P=0.000000 Y=123.448845 R=0.000000
+[2020.04.09-05.24.41:829][875]LogTemp: Warning: Object Yaw is: 123.448845
+[2020.04.09-05.24.41:895][876]LogTemp: Warning: Object is at: P=0.000000 Y=34.579796 R=0.000000
+[2020.04.09-05.24.41:895][876]LogTemp: Warning: Object Yaw is: 34.579796
+[2020.04.09-05.24.41:896][876]LogTemp: Warning: Object is at: P=0.000000 Y=124.579842 R=0.000000
+[2020.04.09-05.24.41:896][876]LogTemp: Warning: Object Yaw is: 124.579842
+[2020.04.09-05.24.41:962][877]LogTemp: Warning: Object is at: P=0.000000 Y=35.688168 R=0.000000
+[2020.04.09-05.24.41:962][877]LogTemp: Warning: Object Yaw is: 35.688168
+[2020.04.09-05.24.41:962][877]LogTemp: Warning: Object is at: P=0.000000 Y=125.688248 R=0.000000
+[2020.04.09-05.24.41:962][877]LogTemp: Warning: Object Yaw is: 125.688248
+[2020.04.09-05.24.42:029][878]LogTemp: Warning: Object is at: P=0.000000 Y=36.774384 R=0.000000
+[2020.04.09-05.24.42:029][878]LogTemp: Warning: Object Yaw is: 36.774384
+[2020.04.09-05.24.42:029][878]LogTemp: Warning: Object is at: P=0.000000 Y=126.774452 R=0.000000
+[2020.04.09-05.24.42:029][878]LogTemp: Warning: Object Yaw is: 126.774452
+[2020.04.09-05.24.42:096][879]LogTemp: Warning: Object is at: P=0.000000 Y=37.838879 R=0.000000
+[2020.04.09-05.24.42:096][879]LogTemp: Warning: Object Yaw is: 37.838879
+[2020.04.09-05.24.42:096][879]LogTemp: Warning: Object is at: P=0.000000 Y=127.838951 R=0.000000
+[2020.04.09-05.24.42:096][879]LogTemp: Warning: Object Yaw is: 127.838951
+[2020.04.09-05.24.42:163][880]LogTemp: Warning: Object is at: P=0.000000 Y=38.882099 R=0.000000
+[2020.04.09-05.24.42:163][880]LogTemp: Warning: Object Yaw is: 38.882099
+[2020.04.09-05.24.42:163][880]LogTemp: Warning: Object is at: P=0.000000 Y=128.882172 R=0.000000
+[2020.04.09-05.24.42:163][880]LogTemp: Warning: Object Yaw is: 128.882172
+[2020.04.09-05.24.42:229][881]LogTemp: Warning: Object is at: P=0.000000 Y=39.904472 R=0.000000
+[2020.04.09-05.24.42:230][881]LogTemp: Warning: Object Yaw is: 39.904472
+[2020.04.09-05.24.42:230][881]LogTemp: Warning: Object is at: P=0.000000 Y=129.904556 R=0.000000
+[2020.04.09-05.24.42:230][881]LogTemp: Warning: Object Yaw is: 129.904556
+[2020.04.09-05.24.42:296][882]LogTemp: Warning: Object is at: P=0.000000 Y=40.906418 R=0.000000
+[2020.04.09-05.24.42:296][882]LogTemp: Warning: Object Yaw is: 40.906418
+[2020.04.09-05.24.42:296][882]LogTemp: Warning: Object is at: P=0.000000 Y=130.906464 R=0.000000
+[2020.04.09-05.24.42:297][882]LogTemp: Warning: Object Yaw is: 130.906464
+[2020.04.09-05.24.42:363][883]LogTemp: Warning: Object is at: P=0.000000 Y=41.888321 R=0.000000
+[2020.04.09-05.24.42:363][883]LogTemp: Warning: Object Yaw is: 41.888321
+[2020.04.09-05.24.42:363][883]LogTemp: Warning: Object is at: P=0.000000 Y=131.888351 R=0.000000
+[2020.04.09-05.24.42:363][883]LogTemp: Warning: Object Yaw is: 131.888351
+[2020.04.09-05.24.42:429][884]LogTemp: Warning: Object is at: P=0.000000 Y=42.850548 R=0.000000
+[2020.04.09-05.24.42:429][884]LogTemp: Warning: Object Yaw is: 42.850548
+[2020.04.09-05.24.42:429][884]LogTemp: Warning: Object is at: P=0.000000 Y=132.850586 R=0.000000
+[2020.04.09-05.24.42:429][884]LogTemp: Warning: Object Yaw is: 132.850586
+[2020.04.09-05.24.42:496][885]LogTemp: Warning: Object is at: P=0.000000 Y=43.793484 R=0.000000
+[2020.04.09-05.24.42:496][885]LogTemp: Warning: Object Yaw is: 43.793484
+[2020.04.09-05.24.42:496][885]LogTemp: Warning: Object is at: P=0.000000 Y=133.793549 R=0.000000
+[2020.04.09-05.24.42:496][885]LogTemp: Warning: Object Yaw is: 133.793549
+[2020.04.09-05.24.42:563][886]LogTemp: Warning: Object is at: P=0.000000 Y=44.717594 R=0.000000
+[2020.04.09-05.24.42:563][886]LogTemp: Warning: Object Yaw is: 44.717594
+[2020.04.09-05.24.42:563][886]LogTemp: Warning: Object is at: P=0.000000 Y=134.717667 R=0.000000
+[2020.04.09-05.24.42:563][886]LogTemp: Warning: Object Yaw is: 134.717667
+[2020.04.09-05.24.42:630][887]LogTemp: Warning: Object is at: P=0.000000 Y=45.623322 R=0.000000
+[2020.04.09-05.24.42:630][887]LogTemp: Warning: Object Yaw is: 45.623322
+[2020.04.09-05.24.42:630][887]LogTemp: Warning: Object is at: P=0.000000 Y=135.623367 R=0.000000
+[2020.04.09-05.24.42:630][887]LogTemp: Warning: Object Yaw is: 135.623367
+[2020.04.09-05.24.42:695][888]LogTemp: Warning: Object is at: P=0.000000 Y=46.510807 R=0.000000
+[2020.04.09-05.24.42:695][888]LogTemp: Warning: Object Yaw is: 46.510807
+[2020.04.09-05.24.42:696][888]LogTemp: Warning: Object is at: P=0.000000 Y=136.510880 R=0.000000
+[2020.04.09-05.24.42:696][888]LogTemp: Warning: Object Yaw is: 136.510880
+[2020.04.09-05.24.42:763][889]LogTemp: Warning: Object is at: P=0.000000 Y=47.380566 R=0.000000
+[2020.04.09-05.24.42:763][889]LogTemp: Warning: Object Yaw is: 47.380566
+[2020.04.09-05.24.42:763][889]LogTemp: Warning: Object is at: P=0.000000 Y=137.380630 R=0.000000
+[2020.04.09-05.24.42:763][889]LogTemp: Warning: Object Yaw is: 137.380630
+[2020.04.09-05.24.42:830][890]LogTemp: Warning: Object is at: P=0.000000 Y=48.232952 R=0.000000
+[2020.04.09-05.24.42:830][890]LogTemp: Warning: Object Yaw is: 48.232952
+[2020.04.09-05.24.42:830][890]LogTemp: Warning: Object is at: P=0.000000 Y=138.233002 R=0.000000
+[2020.04.09-05.24.42:830][890]LogTemp: Warning: Object Yaw is: 138.233002
+[2020.04.09-05.24.42:896][891]LogTemp: Warning: Object is at: P=0.000000 Y=49.068314 R=0.000000
+[2020.04.09-05.24.42:896][891]LogTemp: Warning: Object Yaw is: 49.068314
+[2020.04.09-05.24.42:896][891]LogTemp: Warning: Object is at: P=0.000000 Y=139.068375 R=0.000000
+[2020.04.09-05.24.42:896][891]LogTemp: Warning: Object Yaw is: 139.068375
+[2020.04.09-05.24.42:963][892]LogTemp: Warning: Object is at: P=0.000000 Y=49.886978 R=0.000000
+[2020.04.09-05.24.42:963][892]LogTemp: Warning: Object Yaw is: 49.886978
+[2020.04.09-05.24.42:963][892]LogTemp: Warning: Object is at: P=0.000000 Y=139.887054 R=0.000000
+[2020.04.09-05.24.42:963][892]LogTemp: Warning: Object Yaw is: 139.887054
+[2020.04.09-05.24.42:964][892]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.24.42:964][892]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.24.42:965][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.24.42:965][892]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level
+[2020.04.09-05.24.42:965][892]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.24.42:965][892]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.24.42:966][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-05.24.42:974][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-05.24.42:978][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-05.24.43:008][892]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.24.43:014][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.24.43:018][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.04.09-05.24.43:105][894]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.04.09-05.25.00:896][358]LogSlate: Window 'Project Settings' being destroyed
+[2020.04.09-05.25.00:904][358]LogSlate: Window 'Project Settings' being destroyed
+[2020.04.09-05.25.02:082][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.04.09-05.25.02:122][431]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level11F21B7F414AF0FE935590AB5E1529B8.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.09-05.25.02:188][431]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltDataEEBCFF8B4589B3E7009AA79E7E92EDB8.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.09-05.25.02:208][431]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.25.02:208][431]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.09-05.25.02:208][431]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
+[2020.04.09-05.25.03:733][515]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.09-05.25.03:747][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.09-05.25.03:747][515]PIE: New page: PIE session: Level (Apr 8, 2020, 3:25:03 PM)
+[2020.04.09-05.25.03:747][515]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level
+[2020.04.09-05.25.03:754][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007394s)
+[2020.04.09-05.25.03:756][515]LogAIModule: Creating AISystem for world Level
+[2020.04.09-05.25.03:757][515]LogPlayLevel: PIE: World Init took: (0.002598s)
+[2020.04.09-05.25.03:757][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level.Level to /Game/Levels/UEDPIE_0_Level.Level (0.010335s)
+[2020.04.09-05.25.03:789][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.04.09-05.25.03:795][515]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.09-05.25.03:796][515]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.09-05.25.03:796][515]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.09-05.25.03:796][515]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.09-05.25.03:796][515]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.09-05.25.03:796][515]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.09-05.25.03:796][515]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.09-05.25.03:796][515]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.09-05.25.03:796][515]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.09-05.25.03:796][515]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.09-05.25.03:824][515]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: Is Default: Yes
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: Channel Order:
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.09-05.25.03:825][515]LogAudioMixer: Display: 1: FrontRight
+[2020.04.09-05.25.03:954][515]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.09-05.25.03:958][515]LogInit: FAudioDevice initialized.
+[2020.04.09-05.25.03:968][515]LogLoad: Game class is 'GameModeBase'
+[2020.04.09-05.25.03:970][515]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level.Level up for play (max tick rate 0) at 2020.04.08-22.25.03
+[2020.04.09-05.25.03:970][515]LogWorld: Bringing up level for play took: 0.001397
+[2020.04.09-05.25.03:970][515]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.04.09-05.25.03:973][515]LogTemp: Warning: Object name is: Cube_2
+[2020.04.09-05.25.03:974][515]LogTemp: Warning: Cube_2 is at position: X=-130.000 Y=-240.000 Z=30.000 .
+[2020.04.09-05.25.03:974][515]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level -0.534
+[2020.04.09-05.25.03:974][515]LogTemp: Warning: Object is at: P=0.000000 Y=0.000000 R=0.000000
+[2020.04.09-05.25.03:974][515]LogTemp: Warning: Object Yaw is: 0.000000
+[2020.04.09-05.25.03:975][515]LogTemp: Warning: Object is at: P=0.000000 Y=90.000076 R=0.000000
+[2020.04.09-05.25.03:975][515]LogTemp: Warning: Object Yaw is: 90.000076
+[2020.04.09-05.25.03:991][516]LogTemp: Warning: Object is at: P=0.000000 Y=1.800000 R=0.000000
+[2020.04.09-05.25.03:991][516]LogTemp: Warning: Object Yaw is: 1.800000
+[2020.04.09-05.25.03:991][516]LogTemp: Warning: Object is at: P=0.000000 Y=91.800064 R=0.000000
+[2020.04.09-05.25.03:991][516]LogTemp: Warning: Object Yaw is: 91.800064
+[2020.04.09-05.25.04:081][517]LogTemp: Warning: Object is at: P=0.000000 Y=3.564002 R=0.000000
+[2020.04.09-05.25.04:082][517]LogTemp: Warning: Object Yaw is: 3.564002
+[2020.04.09-05.25.04:082][517]LogTemp: Warning: Object is at: P=0.000000 Y=93.564079 R=0.000000
+[2020.04.09-05.25.04:082][517]LogTemp: Warning: Object Yaw is: 93.564079
+[2020.04.09-05.25.04:152][518]LogTemp: Warning: Object is at: P=0.000000 Y=5.292726 R=0.000000
+[2020.04.09-05.25.04:152][518]LogTemp: Warning: Object Yaw is: 5.292726
+[2020.04.09-05.25.04:152][518]LogTemp: Warning: Object is at: P=0.000000 Y=95.292801 R=0.000000
+[2020.04.09-05.25.04:152][518]LogTemp: Warning: Object Yaw is: 95.292801
+[2020.04.09-05.25.04:234][519]LogTemp: Warning: Object is at: P=0.000000 Y=6.986878 R=0.000000
+[2020.04.09-05.25.04:234][519]LogTemp: Warning: Object Yaw is: 6.986878
+[2020.04.09-05.25.04:234][519]LogTemp: Warning: Object is at: P=0.000000 Y=96.986946 R=0.000000
+[2020.04.09-05.25.04:234][519]LogTemp: Warning: Object Yaw is: 96.986946
+[2020.04.09-05.25.04:273][520]LogTemp: Warning: Object is at: P=0.000000 Y=8.647150 R=0.000000
+[2020.04.09-05.25.04:273][520]LogTemp: Warning: Object Yaw is: 8.647150
+[2020.04.09-05.25.04:273][520]LogTemp: Warning: Object is at: P=0.000000 Y=98.647209 R=0.000000
+[2020.04.09-05.25.04:273][520]LogTemp: Warning: Object Yaw is: 98.647209
+[2020.04.09-05.25.04:290][521]LogTemp: Warning: Object is at: P=0.000000 Y=10.274214 R=0.000000
+[2020.04.09-05.25.04:291][521]LogTemp: Warning: Object Yaw is: 10.274214
+[2020.04.09-05.25.04:291][521]LogTemp: Warning: Object is at: P=0.000000 Y=100.274292 R=0.000000
+[2020.04.09-05.25.04:291][521]LogTemp: Warning: Object Yaw is: 100.274292
+[2020.04.09-05.25.04:307][522]LogTemp: Warning: Object is at: P=0.000000 Y=11.868739 R=0.000000
+[2020.04.09-05.25.04:307][522]LogTemp: Warning: Object Yaw is: 11.868739
+[2020.04.09-05.25.04:307][522]LogTemp: Warning: Object is at: P=0.000000 Y=101.868813 R=0.000000
+[2020.04.09-05.25.04:307][522]LogTemp: Warning: Object Yaw is: 101.868813
+[2020.04.09-05.25.04:323][523]LogTemp: Warning: Object is at: P=0.000000 Y=13.431366 R=0.000000
+[2020.04.09-05.25.04:324][523]LogTemp: Warning: Object Yaw is: 13.431366
+[2020.04.09-05.25.04:324][523]LogTemp: Warning: Object is at: P=0.000000 Y=103.431458 R=0.000000
+[2020.04.09-05.25.04:324][523]LogTemp: Warning: Object Yaw is: 103.431458
+[2020.04.09-05.25.04:345][524]LogTemp: Warning: Object is at: P=0.000000 Y=14.962739 R=0.000000
+[2020.04.09-05.25.04:345][524]LogTemp: Warning: Object Yaw is: 14.962739
+[2020.04.09-05.25.04:345][524]LogTemp: Warning: Object is at: P=0.000000 Y=104.962830 R=0.000000
+[2020.04.09-05.25.04:345][524]LogTemp: Warning: Object Yaw is: 104.962830
+[2020.04.09-05.25.04:362][525]LogTemp: Warning: Object is at: P=0.000000 Y=16.463476 R=0.000000
+[2020.04.09-05.25.04:363][525]LogTemp: Warning: Object Yaw is: 16.463476
+[2020.04.09-05.25.04:363][525]LogTemp: Warning: Object is at: P=0.000000 Y=106.463562 R=0.000000
+[2020.04.09-05.25.04:363][525]LogTemp: Warning: Object Yaw is: 106.463562
+[2020.04.09-05.25.04:379][526]LogTemp: Warning: Object is at: P=0.000000 Y=17.934198 R=0.000000
+[2020.04.09-05.25.04:379][526]LogTemp: Warning: Object Yaw is: 17.934198
+[2020.04.09-05.25.04:379][526]LogTemp: Warning: Object is at: P=0.000000 Y=107.934265 R=0.000000
+[2020.04.09-05.25.04:379][526]LogTemp: Warning: Object Yaw is: 107.934265
+[2020.04.09-05.25.04:394][527]LogTemp: Warning: Object is at: P=0.000000 Y=19.375500 R=0.000000
+[2020.04.09-05.25.04:394][527]LogTemp: Warning: Object Yaw is: 19.375500
+[2020.04.09-05.25.04:395][527]LogTemp: Warning: Object is at: P=0.000000 Y=109.375572 R=0.000000
+[2020.04.09-05.25.04:395][527]LogTemp: Warning: Object Yaw is: 109.375572
+[2020.04.09-05.25.04:411][528]LogTemp: Warning: Object is at: P=0.000000 Y=20.787973 R=0.000000
+[2020.04.09-05.25.04:411][528]LogTemp: Warning: Object Yaw is: 20.787973
+[2020.04.09-05.25.04:412][528]LogTemp: Warning: Object is at: P=0.000000 Y=110.788033 R=0.000000
+[2020.04.09-05.25.04:412][528]LogTemp: Warning: Object Yaw is: 110.788033
+[2020.04.09-05.25.04:428][529]LogTemp: Warning: Object is at: P=0.000000 Y=22.172197 R=0.000000
+[2020.04.09-05.25.04:428][529]LogTemp: Warning: Object Yaw is: 22.172197
+[2020.04.09-05.25.04:428][529]LogTemp: Warning: Object is at: P=0.000000 Y=112.172272 R=0.000000
+[2020.04.09-05.25.04:428][529]LogTemp: Warning: Object Yaw is: 112.172272
+[2020.04.09-05.25.04:448][530]LogTemp: Warning: Object is at: P=0.000000 Y=23.528742 R=0.000000
+[2020.04.09-05.25.04:449][530]LogTemp: Warning: Object Yaw is: 23.528742
+[2020.04.09-05.25.04:449][530]LogTemp: Warning: Object is at: P=0.000000 Y=113.528816 R=0.000000
+[2020.04.09-05.25.04:449][530]LogTemp: Warning: Object Yaw is: 113.528816
+[2020.04.09-05.25.04:466][531]LogTemp: Warning: Object is at: P=0.000000 Y=24.858164 R=0.000000
+[2020.04.09-05.25.04:467][531]LogTemp: Warning: Object Yaw is: 24.858164
+[2020.04.09-05.25.04:467][531]LogTemp: Warning: Object is at: P=0.000000 Y=114.858246 R=0.000000
+[2020.04.09-05.25.04:467][531]LogTemp: Warning: Object Yaw is: 114.858246
+[2020.04.09-05.25.04:481][532]LogTemp: Warning: Object is at: P=0.000000 Y=26.161005 R=0.000000
+[2020.04.09-05.25.04:481][532]LogTemp: Warning: Object Yaw is: 26.161005
+[2020.04.09-05.25.04:481][532]LogTemp: Warning: Object is at: P=0.000000 Y=116.161049 R=0.000000
+[2020.04.09-05.25.04:481][532]LogTemp: Warning: Object Yaw is: 116.161049
+[2020.04.09-05.25.04:499][533]LogTemp: Warning: Object is at: P=0.000000 Y=27.437794 R=0.000000
+[2020.04.09-05.25.04:499][533]LogTemp: Warning: Object Yaw is: 27.437794
+[2020.04.09-05.25.04:499][533]LogTemp: Warning: Object is at: P=0.000000 Y=117.437859 R=0.000000
+[2020.04.09-05.25.04:499][533]LogTemp: Warning: Object Yaw is: 117.437859
+[2020.04.09-05.25.04:514][534]LogTemp: Warning: Object is at: P=0.000000 Y=28.689054 R=0.000000
+[2020.04.09-05.25.04:514][534]LogTemp: Warning: Object Yaw is: 28.689054
+[2020.04.09-05.25.04:514][534]LogTemp: Warning: Object is at: P=0.000000 Y=118.689102 R=0.000000
+[2020.04.09-05.25.04:514][534]LogTemp: Warning: Object Yaw is: 118.689102
+[2020.04.09-05.25.04:531][535]LogTemp: Warning: Object is at: P=0.000000 Y=29.915295 R=0.000000
+[2020.04.09-05.25.04:531][535]LogTemp: Warning: Object Yaw is: 29.915295
+[2020.04.09-05.25.04:531][535]LogTemp: Warning: Object is at: P=0.000000 Y=119.915359 R=0.000000
+[2020.04.09-05.25.04:531][535]LogTemp: Warning: Object Yaw is: 119.915359
+[2020.04.09-05.25.04:545][536]LogTemp: Warning: Object is at: P=0.000000 Y=31.117012 R=0.000000
+[2020.04.09-05.25.04:545][536]LogTemp: Warning: Object Yaw is: 31.117012
+[2020.04.09-05.25.04:545][536]LogTemp: Warning: Object is at: P=0.000000 Y=121.117058 R=0.000000
+[2020.04.09-05.25.04:545][536]LogTemp: Warning: Object Yaw is: 121.117058
+[2020.04.09-05.25.04:563][537]LogTemp: Warning: Object is at: P=0.000000 Y=32.294678 R=0.000000
+[2020.04.09-05.25.04:563][537]LogTemp: Warning: Object Yaw is: 32.294678
+[2020.04.09-05.25.04:563][537]LogTemp: Warning: Object is at: P=0.000000 Y=122.294708 R=0.000000
+[2020.04.09-05.25.04:563][537]LogTemp: Warning: Object Yaw is: 122.294708
+[2020.04.09-05.25.04:579][538]LogTemp: Warning: Object is at: P=0.000000 Y=33.448780 R=0.000000
+[2020.04.09-05.25.04:579][538]LogTemp: Warning: Object Yaw is: 33.448780
+[2020.04.09-05.25.04:579][538]LogTemp: Warning: Object is at: P=0.000000 Y=123.448845 R=0.000000
+[2020.04.09-05.25.04:579][538]LogTemp: Warning: Object Yaw is: 123.448845
+[2020.04.09-05.25.04:596][539]LogTemp: Warning: Object is at: P=0.000000 Y=34.579796 R=0.000000
+[2020.04.09-05.25.04:596][539]LogTemp: Warning: Object Yaw is: 34.579796
+[2020.04.09-05.25.04:596][539]LogTemp: Warning: Object is at: P=0.000000 Y=124.579842 R=0.000000
+[2020.04.09-05.25.04:596][539]LogTemp: Warning: Object Yaw is: 124.579842
+[2020.04.09-05.25.04:611][540]LogTemp: Warning: Object is at: P=0.000000 Y=35.688168 R=0.000000
+[2020.04.09-05.25.04:611][540]LogTemp: Warning: Object Yaw is: 35.688168
+[2020.04.09-05.25.04:611][540]LogTemp: Warning: Object is at: P=0.000000 Y=125.688248 R=0.000000
+[2020.04.09-05.25.04:611][540]LogTemp: Warning: Object Yaw is: 125.688248
+[2020.04.09-05.25.04:627][541]LogTemp: Warning: Object is at: P=0.000000 Y=36.774384 R=0.000000
+[2020.04.09-05.25.04:627][541]LogTemp: Warning: Object Yaw is: 36.774384
+[2020.04.09-05.25.04:628][541]LogTemp: Warning: Object is at: P=0.000000 Y=126.774452 R=0.000000
+[2020.04.09-05.25.04:628][541]LogTemp: Warning: Object Yaw is: 126.774452
+[2020.04.09-05.25.04:641][542]LogTemp: Warning: Object is at: P=0.000000 Y=37.838879 R=0.000000
+[2020.04.09-05.25.04:643][542]LogTemp: Warning: Object Yaw is: 37.838879
+[2020.04.09-05.25.04:643][542]LogTemp: Warning: Object is at: P=0.000000 Y=127.838951 R=0.000000
+[2020.04.09-05.25.04:643][542]LogTemp: Warning: Object Yaw is: 127.838951
+[2020.04.09-05.25.04:659][543]LogTemp: Warning: Object is at: P=0.000000 Y=38.882099 R=0.000000
+[2020.04.09-05.25.04:659][543]LogTemp: Warning: Object Yaw is: 38.882099
+[2020.04.09-05.25.04:659][543]LogTemp: Warning: Object is at: P=0.000000 Y=128.882172 R=0.000000
+[2020.04.09-05.25.04:659][543]LogTemp: Warning: Object Yaw is: 128.882172
+[2020.04.09-05.25.04:678][544]LogTemp: Warning: Object is at: P=0.000000 Y=39.904472 R=0.000000
+[2020.04.09-05.25.04:678][544]LogTemp: Warning: Object Yaw is: 39.904472
+[2020.04.09-05.25.04:678][544]LogTemp: Warning: Object is at: P=0.000000 Y=129.904556 R=0.000000
+[2020.04.09-05.25.04:678][544]LogTemp: Warning: Object Yaw is: 129.904556
+[2020.04.09-05.25.04:694][545]LogTemp: Warning: Object is at: P=0.000000 Y=40.906418 R=0.000000
+[2020.04.09-05.25.04:694][545]LogTemp: Warning: Object Yaw is: 40.906418
+[2020.04.09-05.25.04:694][545]LogTemp: Warning: Object is at: P=0.000000 Y=130.906464 R=0.000000
+[2020.04.09-05.25.04:694][545]LogTemp: Warning: Object Yaw is: 130.906464
+[2020.04.09-05.25.04:708][546]LogTemp: Warning: Object is at: P=0.000000 Y=41.888321 R=0.000000
+[2020.04.09-05.25.04:709][546]LogTemp: Warning: Object Yaw is: 41.888321
+[2020.04.09-05.25.04:709][546]LogTemp: Warning: Object is at: P=0.000000 Y=131.888351 R=0.000000
+[2020.04.09-05.25.04:709][546]LogTemp: Warning: Object Yaw is: 131.888351
+[2020.04.09-05.25.04:726][547]LogTemp: Warning: Object is at: P=0.000000 Y=42.850548 R=0.000000
+[2020.04.09-05.25.04:726][547]LogTemp: Warning: Object Yaw is: 42.850548
+[2020.04.09-05.25.04:726][547]LogTemp: Warning: Object is at: P=0.000000 Y=132.850586 R=0.000000
+[2020.04.09-05.25.04:726][547]LogTemp: Warning: Object Yaw is: 132.850586
+[2020.04.09-05.25.04:744][548]LogTemp: Warning: Object is at: P=0.000000 Y=43.793484 R=0.000000
+[2020.04.09-05.25.04:744][548]LogTemp: Warning: Object Yaw is: 43.793484
+[2020.04.09-05.25.04:744][548]LogTemp: Warning: Object is at: P=0.000000 Y=133.793549 R=0.000000
+[2020.04.09-05.25.04:744][548]LogTemp: Warning: Object Yaw is: 133.793549
+[2020.04.09-05.25.04:758][549]LogTemp: Warning: Object is at: P=0.000000 Y=44.717594 R=0.000000
+[2020.04.09-05.25.04:759][549]LogTemp: Warning: Object Yaw is: 44.717594
+[2020.04.09-05.25.04:759][549]LogTemp: Warning: Object is at: P=0.000000 Y=134.717667 R=0.000000
+[2020.04.09-05.25.04:759][549]LogTemp: Warning: Object Yaw is: 134.717667
+[2020.04.09-05.25.04:776][550]LogTemp: Warning: Object is at: P=0.000000 Y=45.623322 R=0.000000
+[2020.04.09-05.25.04:776][550]LogTemp: Warning: Object Yaw is: 45.623322
+[2020.04.09-05.25.04:777][550]LogTemp: Warning: Object is at: P=0.000000 Y=135.623367 R=0.000000
+[2020.04.09-05.25.04:777][550]LogTemp: Warning: Object Yaw is: 135.623367
+[2020.04.09-05.25.04:792][551]LogTemp: Warning: Object is at: P=0.000000 Y=46.510807 R=0.000000
+[2020.04.09-05.25.04:793][551]LogTemp: Warning: Object Yaw is: 46.510807
+[2020.04.09-05.25.04:793][551]LogTemp: Warning: Object is at: P=0.000000 Y=136.510880 R=0.000000
+[2020.04.09-05.25.04:793][551]LogTemp: Warning: Object Yaw is: 136.510880
+[2020.04.09-05.25.04:810][552]LogTemp: Warning: Object is at: P=0.000000 Y=47.380566 R=0.000000
+[2020.04.09-05.25.04:811][552]LogTemp: Warning: Object Yaw is: 47.380566
+[2020.04.09-05.25.04:811][552]LogTemp: Warning: Object is at: P=0.000000 Y=137.380630 R=0.000000
+[2020.04.09-05.25.04:811][552]LogTemp: Warning: Object Yaw is: 137.380630
+[2020.04.09-05.25.04:828][553]LogTemp: Warning: Object is at: P=0.000000 Y=48.232952 R=0.000000
+[2020.04.09-05.25.04:828][553]LogTemp: Warning: Object Yaw is: 48.232952
+[2020.04.09-05.25.04:828][553]LogTemp: Warning: Object is at: P=0.000000 Y=138.233002 R=0.000000
+[2020.04.09-05.25.04:828][553]LogTemp: Warning: Object Yaw is: 138.233002
+[2020.04.09-05.25.04:845][554]LogTemp: Warning: Object is at: P=0.000000 Y=49.068314 R=0.000000
+[2020.04.09-05.25.04:845][554]LogTemp: Warning: Object Yaw is: 49.068314
+[2020.04.09-05.25.04:845][554]LogTemp: Warning: Object is at: P=0.000000 Y=139.068375 R=0.000000
+[2020.04.09-05.25.04:845][554]LogTemp: Warning: Object Yaw is: 139.068375
+[2020.04.09-05.25.04:860][555]LogTemp: Warning: Object is at: P=0.000000 Y=49.886978 R=0.000000
+[2020.04.09-05.25.04:860][555]LogTemp: Warning: Object Yaw is: 49.886978
+[2020.04.09-05.25.04:861][555]LogTemp: Warning: Object is at: P=0.000000 Y=139.887054 R=0.000000
+[2020.04.09-05.25.04:861][555]LogTemp: Warning: Object Yaw is: 139.887054
+[2020.04.09-05.25.04:878][556]LogTemp: Warning: Object is at: P=0.000000 Y=50.689255 R=0.000000
+[2020.04.09-05.25.04:878][556]LogTemp: Warning: Object Yaw is: 50.689255
+[2020.04.09-05.25.04:878][556]LogTemp: Warning: Object is at: P=0.000000 Y=140.689301 R=0.000000
+[2020.04.09-05.25.04:878][556]LogTemp: Warning: Object Yaw is: 140.689301
+[2020.04.09-05.25.04:894][557]LogTemp: Warning: Object is at: P=0.000000 Y=51.475483 R=0.000000
+[2020.04.09-05.25.04:894][557]LogTemp: Warning: Object Yaw is: 51.475483
+[2020.04.09-05.25.04:894][557]LogTemp: Warning: Object is at: P=0.000000 Y=141.475540 R=0.000000
+[2020.04.09-05.25.04:894][557]LogTemp: Warning: Object Yaw is: 141.475540
+[2020.04.09-05.25.04:912][558]LogTemp: Warning: Object is at: P=0.000000 Y=52.245968 R=0.000000
+[2020.04.09-05.25.04:912][558]LogTemp: Warning: Object Yaw is: 52.245968
+[2020.04.09-05.25.04:912][558]LogTemp: Warning: Object is at: P=0.000000 Y=142.246002 R=0.000000
+[2020.04.09-05.25.04:912][558]LogTemp: Warning: Object Yaw is: 142.246002
+[2020.04.09-05.25.04:928][559]LogTemp: Warning: Object is at: P=0.000000 Y=53.001041 R=0.000000
+[2020.04.09-05.25.04:928][559]LogTemp: Warning: Object Yaw is: 53.001041
+[2020.04.09-05.25.04:928][559]LogTemp: Warning: Object is at: P=0.000000 Y=143.001068 R=0.000000
+[2020.04.09-05.25.04:928][559]LogTemp: Warning: Object Yaw is: 143.001068
+[2020.04.09-05.25.04:942][560]LogTemp: Warning: Object is at: P=0.000000 Y=53.740997 R=0.000000
+[2020.04.09-05.25.04:943][560]LogTemp: Warning: Object Yaw is: 53.740997
+[2020.04.09-05.25.04:943][560]LogTemp: Warning: Object is at: P=0.000000 Y=143.741043 R=0.000000
+[2020.04.09-05.25.04:943][560]LogTemp: Warning: Object Yaw is: 143.741043
+[2020.04.09-05.25.04:959][561]LogTemp: Warning: Object is at: P=0.000000 Y=54.466160 R=0.000000
+[2020.04.09-05.25.04:959][561]LogTemp: Warning: Object Yaw is: 54.466160
+[2020.04.09-05.25.04:959][561]LogTemp: Warning: Object is at: P=0.000000 Y=144.466232 R=0.000000
+[2020.04.09-05.25.04:959][561]LogTemp: Warning: Object Yaw is: 144.466232
+[2020.04.09-05.25.04:974][562]LogTemp: Warning: Object is at: P=0.000000 Y=55.176830 R=0.000000
+[2020.04.09-05.25.04:975][562]LogTemp: Warning: Object Yaw is: 55.176830
+[2020.04.09-05.25.04:975][562]LogTemp: Warning: Object is at: P=0.000000 Y=145.176849 R=0.000000
+[2020.04.09-05.25.04:975][562]LogTemp: Warning: Object Yaw is: 145.176849
+[2020.04.09-05.25.04:991][563]LogTemp: Warning: Object is at: P=0.000000 Y=55.873287 R=0.000000
+[2020.04.09-05.25.04:991][563]LogTemp: Warning: Object Yaw is: 55.873287
+[2020.04.09-05.25.04:991][563]LogTemp: Warning: Object is at: P=0.000000 Y=145.873291 R=0.000000
+[2020.04.09-05.25.04:991][563]LogTemp: Warning: Object Yaw is: 145.873291
+[2020.04.09-05.25.05:008][564]LogTemp: Warning: Object is at: P=0.000000 Y=56.555809 R=0.000000
+[2020.04.09-05.25.05:008][564]LogTemp: Warning: Object Yaw is: 56.555809
+[2020.04.09-05.25.05:008][564]LogTemp: Warning: Object is at: P=0.000000 Y=146.555832 R=0.000000
+[2020.04.09-05.25.05:008][564]LogTemp: Warning: Object Yaw is: 146.555832
+[2020.04.09-05.25.05:023][565]LogTemp: Warning: Object is at: P=0.000000 Y=57.224689 R=0.000000
+[2020.04.09-05.25.05:024][565]LogTemp: Warning: Object Yaw is: 57.224689
+[2020.04.09-05.25.05:024][565]LogTemp: Warning: Object is at: P=0.000000 Y=147.224716 R=0.000000
+[2020.04.09-05.25.05:024][565]LogTemp: Warning: Object Yaw is: 147.224716
+[2020.04.09-05.25.05:038][566]LogTemp: Warning: Object is at: P=0.000000 Y=57.880203 R=0.000000
+[2020.04.09-05.25.05:038][566]LogTemp: Warning: Object Yaw is: 57.880203
+[2020.04.09-05.25.05:038][566]LogTemp: Warning: Object is at: P=0.000000 Y=147.880234 R=0.000000
+[2020.04.09-05.25.05:038][566]LogTemp: Warning: Object Yaw is: 147.880234
+[2020.04.09-05.25.05:054][567]LogTemp: Warning: Object is at: P=0.000000 Y=58.522602 R=0.000000
+[2020.04.09-05.25.05:054][567]LogTemp: Warning: Object Yaw is: 58.522602
+[2020.04.09-05.25.05:055][567]LogTemp: Warning: Object is at: P=0.000000 Y=148.522614 R=0.000000
+[2020.04.09-05.25.05:055][567]LogTemp: Warning: Object Yaw is: 148.522614
+[2020.04.09-05.25.05:071][568]LogTemp: Warning: Object is at: P=0.000000 Y=59.152168 R=0.000000
+[2020.04.09-05.25.05:071][568]LogTemp: Warning: Object Yaw is: 59.152168
+[2020.04.09-05.25.05:073][568]LogTemp: Warning: Object is at: P=0.000000 Y=149.152176 R=0.000000
+[2020.04.09-05.25.05:073][568]LogTemp: Warning: Object Yaw is: 149.152176
+[2020.04.09-05.25.05:089][569]LogTemp: Warning: Object is at: P=0.000000 Y=59.769119 R=0.000000
+[2020.04.09-05.25.05:090][569]LogTemp: Warning: Object Yaw is: 59.769119
+[2020.04.09-05.25.05:090][569]LogTemp: Warning: Object is at: P=0.000000 Y=149.769150 R=0.000000
+[2020.04.09-05.25.05:090][569]LogTemp: Warning: Object Yaw is: 149.769150
+[2020.04.09-05.25.05:104][570]LogTemp: Warning: Object is at: P=0.000000 Y=60.373741 R=0.000000
+[2020.04.09-05.25.05:104][570]LogTemp: Warning: Object Yaw is: 60.373741
+[2020.04.09-05.25.05:104][570]LogTemp: Warning: Object is at: P=0.000000 Y=150.373795 R=0.000000
+[2020.04.09-05.25.05:104][570]LogTemp: Warning: Object Yaw is: 150.373795
+[2020.04.09-05.25.05:121][571]LogTemp: Warning: Object is at: P=0.000000 Y=60.966286 R=0.000000
+[2020.04.09-05.25.05:121][571]LogTemp: Warning: Object Yaw is: 60.966286
+[2020.04.09-05.25.05:121][571]LogTemp: Warning: Object is at: P=0.000000 Y=150.966293 R=0.000000
+[2020.04.09-05.25.05:121][571]LogTemp: Warning: Object Yaw is: 150.966293
+[2020.04.09-05.25.05:136][572]LogTemp: Warning: Object is at: P=0.000000 Y=61.546955 R=0.000000
+[2020.04.09-05.25.05:136][572]LogTemp: Warning: Object Yaw is: 61.546955
+[2020.04.09-05.25.05:136][572]LogTemp: Warning: Object is at: P=0.000000 Y=151.546997 R=0.000000
+[2020.04.09-05.25.05:137][572]LogTemp: Warning: Object Yaw is: 151.546997
+[2020.04.09-05.25.05:153][573]LogTemp: Warning: Object is at: P=0.000000 Y=62.116016 R=0.000000
+[2020.04.09-05.25.05:154][573]LogTemp: Warning: Object Yaw is: 62.116016
+[2020.04.09-05.25.05:154][573]LogTemp: Warning: Object is at: P=0.000000 Y=152.116058 R=0.000000
+[2020.04.09-05.25.05:154][573]LogTemp: Warning: Object Yaw is: 152.116058
+[2020.04.09-05.25.05:173][574]LogTemp: Warning: Object is at: P=0.000000 Y=62.673710 R=0.000000
+[2020.04.09-05.25.05:173][574]LogTemp: Warning: Object Yaw is: 62.673710
+[2020.04.09-05.25.05:174][574]LogTemp: Warning: Object is at: P=0.000000 Y=152.673737 R=0.000000
+[2020.04.09-05.25.05:174][574]LogTemp: Warning: Object Yaw is: 152.673737
+[2020.04.09-05.25.05:191][575]LogTemp: Warning: Object is at: P=0.000000 Y=63.220253 R=0.000000
+[2020.04.09-05.25.05:191][575]LogTemp: Warning: Object Yaw is: 63.220253
+[2020.04.09-05.25.05:191][575]LogTemp: Warning: Object is at: P=0.000000 Y=153.220261 R=0.000000
+[2020.04.09-05.25.05:192][575]LogTemp: Warning: Object Yaw is: 153.220261
+[2020.04.09-05.25.05:206][576]LogTemp: Warning: Object is at: P=0.000000 Y=63.755859 R=0.000000
+[2020.04.09-05.25.05:206][576]LogTemp: Warning: Object Yaw is: 63.755859
+[2020.04.09-05.25.05:206][576]LogTemp: Warning: Object is at: P=0.000000 Y=153.755905 R=0.000000
+[2020.04.09-05.25.05:206][576]LogTemp: Warning: Object Yaw is: 153.755905
+[2020.04.09-05.25.05:225][577]LogTemp: Warning: Object is at: P=0.000000 Y=64.280731 R=0.000000
+[2020.04.09-05.25.05:225][577]LogTemp: Warning: Object Yaw is: 64.280731
+[2020.04.09-05.25.05:225][577]LogTemp: Warning: Object is at: P=0.000000 Y=154.280777 R=0.000000
+[2020.04.09-05.25.05:225][577]LogTemp: Warning: Object Yaw is: 154.280777
+[2020.04.09-05.25.05:244][578]LogTemp: Warning: Object is at: P=0.000000 Y=64.795135 R=0.000000
+[2020.04.09-05.25.05:244][578]LogTemp: Warning: Object Yaw is: 64.795135
+[2020.04.09-05.25.05:244][578]LogTemp: Warning: Object is at: P=0.000000 Y=154.795135 R=0.000000
+[2020.04.09-05.25.05:244][578]LogTemp: Warning: Object Yaw is: 154.795135
+[2020.04.09-05.25.05:259][579]LogTemp: Warning: Object is at: P=0.000000 Y=65.299225 R=0.000000
+[2020.04.09-05.25.05:259][579]LogTemp: Warning: Object Yaw is: 65.299225
+[2020.04.09-05.25.05:259][579]LogTemp: Warning: Object is at: P=0.000000 Y=155.299271 R=0.000000
+[2020.04.09-05.25.05:259][579]LogTemp: Warning: Object Yaw is: 155.299271
+[2020.04.09-05.25.05:277][580]LogTemp: Warning: Object is at: P=0.000000 Y=65.793228 R=0.000000
+[2020.04.09-05.25.05:277][580]LogTemp: Warning: Object Yaw is: 65.793228
+[2020.04.09-05.25.05:277][580]LogTemp: Warning: Object is at: P=0.000000 Y=155.793289 R=0.000000
+[2020.04.09-05.25.05:277][580]LogTemp: Warning: Object Yaw is: 155.793289
+[2020.04.09-05.25.05:293][581]LogTemp: Warning: Object is at: P=0.000000 Y=66.277390 R=0.000000
+[2020.04.09-05.25.05:293][581]LogTemp: Warning: Object Yaw is: 66.277390
+[2020.04.09-05.25.05:293][581]LogTemp: Warning: Object is at: P=0.000000 Y=156.277420 R=0.000000
+[2020.04.09-05.25.05:293][581]LogTemp: Warning: Object Yaw is: 156.277420
+[2020.04.09-05.25.05:308][582]LogTemp: Warning: Object is at: P=0.000000 Y=66.751831 R=0.000000
+[2020.04.09-05.25.05:309][582]LogTemp: Warning: Object Yaw is: 66.751831
+[2020.04.09-05.25.05:309][582]LogTemp: Warning: Object is at: P=0.000000 Y=156.751877 R=0.000000
+[2020.04.09-05.25.05:309][582]LogTemp: Warning: Object Yaw is: 156.751877
+[2020.04.09-05.25.05:327][583]LogTemp: Warning: Object is at: P=0.000000 Y=67.216789 R=0.000000
+[2020.04.09-05.25.05:327][583]LogTemp: Warning: Object Yaw is: 67.216789
+[2020.04.09-05.25.05:327][583]LogTemp: Warning: Object is at: P=0.000000 Y=157.216843 R=0.000000
+[2020.04.09-05.25.05:327][583]LogTemp: Warning: Object Yaw is: 157.216843
+[2020.04.09-05.25.05:345][584]LogTemp: Warning: Object is at: P=0.000000 Y=67.672462 R=0.000000
+[2020.04.09-05.25.05:345][584]LogTemp: Warning: Object Yaw is: 67.672462
+[2020.04.09-05.25.05:345][584]LogTemp: Warning: Object is at: P=0.000000 Y=157.672470 R=0.000000
+[2020.04.09-05.25.05:345][584]LogTemp: Warning: Object Yaw is: 157.672470
+[2020.04.09-05.25.05:360][585]LogTemp: Warning: Object is at: P=0.000000 Y=68.119003 R=0.000000
+[2020.04.09-05.25.05:360][585]LogTemp: Warning: Object Yaw is: 68.119003
+[2020.04.09-05.25.05:360][585]LogTemp: Warning: Object is at: P=0.000000 Y=158.119034 R=0.000000
+[2020.04.09-05.25.05:361][585]LogTemp: Warning: Object Yaw is: 158.119034
+[2020.04.09-05.25.05:377][586]LogTemp: Warning: Object is at: P=0.000000 Y=68.556602 R=0.000000
+[2020.04.09-05.25.05:377][586]LogTemp: Warning: Object Yaw is: 68.556602
+[2020.04.09-05.25.05:377][586]LogTemp: Warning: Object is at: P=0.000000 Y=158.556641 R=0.000000
+[2020.04.09-05.25.05:377][586]LogTemp: Warning: Object Yaw is: 158.556641
+[2020.04.09-05.25.05:393][587]LogTemp: Warning: Object is at: P=0.000000 Y=68.985466 R=0.000000
+[2020.04.09-05.25.05:393][587]LogTemp: Warning: Object Yaw is: 68.985466
+[2020.04.09-05.25.05:393][587]LogTemp: Warning: Object is at: P=0.000000 Y=158.985519 R=0.000000
+[2020.04.09-05.25.05:393][587]LogTemp: Warning: Object Yaw is: 158.985519
+[2020.04.09-05.25.05:409][588]LogTemp: Warning: Object is at: P=0.000000 Y=69.405769 R=0.000000
+[2020.04.09-05.25.05:409][588]LogTemp: Warning: Object Yaw is: 69.405769
+[2020.04.09-05.25.05:409][588]LogTemp: Warning: Object is at: P=0.000000 Y=159.405807 R=0.000000
+[2020.04.09-05.25.05:409][588]LogTemp: Warning: Object Yaw is: 159.405807
+[2020.04.09-05.25.05:427][589]LogTemp: Warning: Object is at: P=0.000000 Y=69.817650 R=0.000000
+[2020.04.09-05.25.05:427][589]LogTemp: Warning: Object Yaw is: 69.817650
+[2020.04.09-05.25.05:427][589]LogTemp: Warning: Object is at: P=0.000000 Y=159.817673 R=0.000000
+[2020.04.09-05.25.05:427][589]LogTemp: Warning: Object Yaw is: 159.817673
+[2020.04.09-05.25.05:445][590]LogTemp: Warning: Object is at: P=0.000000 Y=70.221291 R=0.000000
+[2020.04.09-05.25.05:445][590]LogTemp: Warning: Object Yaw is: 70.221291
+[2020.04.09-05.25.05:445][590]LogTemp: Warning: Object is at: P=0.000000 Y=160.221313 R=0.000000
+[2020.04.09-05.25.05:445][590]LogTemp: Warning: Object Yaw is: 160.221313
+[2020.04.09-05.25.05:461][591]LogTemp: Warning: Object is at: P=0.000000 Y=70.616875 R=0.000000
+[2020.04.09-05.25.05:461][591]LogTemp: Warning: Object Yaw is: 70.616875
+[2020.04.09-05.25.05:461][591]LogTemp: Warning: Object is at: P=0.000000 Y=160.616882 R=0.000000
+[2020.04.09-05.25.05:461][591]LogTemp: Warning: Object Yaw is: 160.616882
+[2020.04.09-05.25.05:477][592]LogTemp: Warning: Object is at: P=0.000000 Y=71.004517 R=0.000000
+[2020.04.09-05.25.05:477][592]LogTemp: Warning: Object Yaw is: 71.004517
+[2020.04.09-05.25.05:477][592]LogTemp: Warning: Object is at: P=0.000000 Y=161.004547 R=0.000000
+[2020.04.09-05.25.05:477][592]LogTemp: Warning: Object Yaw is: 161.004547
+[2020.04.09-05.25.05:493][593]LogTemp: Warning: Object is at: P=0.000000 Y=71.384438 R=0.000000
+[2020.04.09-05.25.05:494][593]LogTemp: Warning: Object Yaw is: 71.384438
+[2020.04.09-05.25.05:494][593]LogTemp: Warning: Object is at: P=0.000000 Y=161.384445 R=0.000000
+[2020.04.09-05.25.05:494][593]LogTemp: Warning: Object Yaw is: 161.384445
+[2020.04.09-05.25.05:509][594]LogTemp: Warning: Object is at: P=0.000000 Y=71.756737 R=0.000000
+[2020.04.09-05.25.05:509][594]LogTemp: Warning: Object Yaw is: 71.756737
+[2020.04.09-05.25.05:509][594]LogTemp: Warning: Object is at: P=0.000000 Y=161.756760 R=0.000000
+[2020.04.09-05.25.05:509][594]LogTemp: Warning: Object Yaw is: 161.756760
+[2020.04.09-05.25.05:525][595]LogTemp: Warning: Object is at: P=0.000000 Y=72.121605 R=0.000000
+[2020.04.09-05.25.05:525][595]LogTemp: Warning: Object Yaw is: 72.121605
+[2020.04.09-05.25.05:525][595]LogTemp: Warning: Object is at: P=0.000000 Y=162.121628 R=0.000000
+[2020.04.09-05.25.05:525][595]LogTemp: Warning: Object Yaw is: 162.121628
+[2020.04.09-05.25.05:541][596]LogTemp: Warning: Object is at: P=0.000000 Y=72.479179 R=0.000000
+[2020.04.09-05.25.05:541][596]LogTemp: Warning: Object Yaw is: 72.479179
+[2020.04.09-05.25.05:541][596]LogTemp: Warning: Object is at: P=0.000000 Y=162.479187 R=0.000000
+[2020.04.09-05.25.05:541][596]LogTemp: Warning: Object Yaw is: 162.479187
+[2020.04.09-05.25.05:557][597]LogTemp: Warning: Object is at: P=0.000000 Y=72.829582 R=0.000000
+[2020.04.09-05.25.05:557][597]LogTemp: Warning: Object Yaw is: 72.829582
+[2020.04.09-05.25.05:557][597]LogTemp: Warning: Object is at: P=0.000000 Y=162.829590 R=0.000000
+[2020.04.09-05.25.05:557][597]LogTemp: Warning: Object Yaw is: 162.829590
+[2020.04.09-05.25.05:575][598]LogTemp: Warning: Object is at: P=0.000000 Y=73.172989 R=0.000000
+[2020.04.09-05.25.05:575][598]LogTemp: Warning: Object Yaw is: 73.172989
+[2020.04.09-05.25.05:575][598]LogTemp: Warning: Object is at: P=0.000000 Y=163.173050 R=0.000000
+[2020.04.09-05.25.05:575][598]LogTemp: Warning: Object Yaw is: 163.173050
+[2020.04.09-05.25.05:591][599]LogTemp: Warning: Object is at: P=0.000000 Y=73.509521 R=0.000000
+[2020.04.09-05.25.05:591][599]LogTemp: Warning: Object Yaw is: 73.509521
+[2020.04.09-05.25.05:591][599]LogTemp: Warning: Object is at: P=0.000000 Y=163.509537 R=0.000000
+[2020.04.09-05.25.05:591][599]LogTemp: Warning: Object Yaw is: 163.509537
+[2020.04.09-05.25.05:609][600]LogTemp: Warning: Object is at: P=0.000000 Y=73.839333 R=0.000000
+[2020.04.09-05.25.05:609][600]LogTemp: Warning: Object Yaw is: 73.839333
+[2020.04.09-05.25.05:609][600]LogTemp: Warning: Object is at: P=0.000000 Y=163.839340 R=0.000000
+[2020.04.09-05.25.05:609][600]LogTemp: Warning: Object Yaw is: 163.839340
+[2020.04.09-05.25.05:624][601]LogTemp: Warning: Object is at: P=0.000000 Y=74.162544 R=0.000000
+[2020.04.09-05.25.05:625][601]LogTemp: Warning: Object Yaw is: 74.162544
+[2020.04.09-05.25.05:625][601]LogTemp: Warning: Object is at: P=0.000000 Y=164.162582 R=0.000000
+[2020.04.09-05.25.05:625][601]LogTemp: Warning: Object Yaw is: 164.162582
+[2020.04.09-05.25.05:643][602]LogTemp: Warning: Object is at: P=0.000000 Y=74.479286 R=0.000000
+[2020.04.09-05.25.05:643][602]LogTemp: Warning: Object Yaw is: 74.479286
+[2020.04.09-05.25.05:643][602]LogTemp: Warning: Object is at: P=0.000000 Y=164.479340 R=0.000000
+[2020.04.09-05.25.05:643][602]LogTemp: Warning: Object Yaw is: 164.479340
+[2020.04.09-05.25.05:660][603]LogTemp: Warning: Object is at: P=0.000000 Y=74.789703 R=0.000000
+[2020.04.09-05.25.05:660][603]LogTemp: Warning: Object Yaw is: 74.789703
+[2020.04.09-05.25.05:660][603]LogTemp: Warning: Object is at: P=0.000000 Y=164.789719 R=0.000000
+[2020.04.09-05.25.05:660][603]LogTemp: Warning: Object Yaw is: 164.789719
+[2020.04.09-05.25.05:676][604]LogTemp: Warning: Object is at: P=0.000000 Y=75.093903 R=0.000000
+[2020.04.09-05.25.05:676][604]LogTemp: Warning: Object Yaw is: 75.093903
+[2020.04.09-05.25.05:676][604]LogTemp: Warning: Object is at: P=0.000000 Y=165.093933 R=0.000000
+[2020.04.09-05.25.05:676][604]LogTemp: Warning: Object Yaw is: 165.093933
+[2020.04.09-05.25.05:693][605]LogTemp: Warning: Object is at: P=0.000000 Y=75.392029 R=0.000000
+[2020.04.09-05.25.05:693][605]LogTemp: Warning: Object Yaw is: 75.392029
+[2020.04.09-05.25.05:693][605]LogTemp: Warning: Object is at: P=0.000000 Y=165.392044 R=0.000000
+[2020.04.09-05.25.05:693][605]LogTemp: Warning: Object Yaw is: 165.392044
+[2020.04.09-05.25.05:707][606]LogTemp: Warning: Object is at: P=0.000000 Y=75.684196 R=0.000000
+[2020.04.09-05.25.05:708][606]LogTemp: Warning: Object Yaw is: 75.684196
+[2020.04.09-05.25.05:708][606]LogTemp: Warning: Object is at: P=0.000000 Y=165.684189 R=0.000000
+[2020.04.09-05.25.05:708][606]LogTemp: Warning: Object Yaw is: 165.684189
+[2020.04.09-05.25.05:724][607]LogTemp: Warning: Object is at: P=0.000000 Y=75.970497 R=0.000000
+[2020.04.09-05.25.05:725][607]LogTemp: Warning: Object Yaw is: 75.970497
+[2020.04.09-05.25.05:725][607]LogTemp: Warning: Object is at: P=0.000000 Y=165.970520 R=0.000000
+[2020.04.09-05.25.05:725][607]LogTemp: Warning: Object Yaw is: 165.970520
+[2020.04.09-05.25.05:741][608]LogTemp: Warning: Object is at: P=0.000000 Y=76.251091 R=0.000000
+[2020.04.09-05.25.05:741][608]LogTemp: Warning: Object Yaw is: 76.251091
+[2020.04.09-05.25.05:741][608]LogTemp: Warning: Object is at: P=0.000000 Y=166.251099 R=0.000000
+[2020.04.09-05.25.05:741][608]LogTemp: Warning: Object Yaw is: 166.251099
+[2020.04.09-05.25.05:756][609]LogTemp: Warning: Object is at: P=0.000000 Y=76.526085 R=0.000000
+[2020.04.09-05.25.05:756][609]LogTemp: Warning: Object Yaw is: 76.526085
+[2020.04.09-05.25.05:756][609]LogTemp: Warning: Object is at: P=0.000000 Y=166.526077 R=0.000000
+[2020.04.09-05.25.05:756][609]LogTemp: Warning: Object Yaw is: 166.526077
+[2020.04.09-05.25.05:772][610]LogTemp: Warning: Object is at: P=0.000000 Y=76.795547 R=0.000000
+[2020.04.09-05.25.05:772][610]LogTemp: Warning: Object Yaw is: 76.795547
+[2020.04.09-05.25.05:772][610]LogTemp: Warning: Object is at: P=0.000000 Y=166.795609 R=0.000000
+[2020.04.09-05.25.05:772][610]LogTemp: Warning: Object Yaw is: 166.795609
+[2020.04.09-05.25.05:789][611]LogTemp: Warning: Object is at: P=0.000000 Y=77.059631 R=0.000000
+[2020.04.09-05.25.05:789][611]LogTemp: Warning: Object Yaw is: 77.059631
+[2020.04.09-05.25.05:789][611]LogTemp: Warning: Object is at: P=0.000000 Y=167.059662 R=0.000000
+[2020.04.09-05.25.05:789][611]LogTemp: Warning: Object Yaw is: 167.059662
+[2020.04.09-05.25.05:806][612]LogTemp: Warning: Object is at: P=0.000000 Y=77.318436 R=0.000000
+[2020.04.09-05.25.05:806][612]LogTemp: Warning: Object Yaw is: 77.318436
+[2020.04.09-05.25.05:806][612]LogTemp: Warning: Object is at: P=0.000000 Y=167.318481 R=0.000000
+[2020.04.09-05.25.05:806][612]LogTemp: Warning: Object Yaw is: 167.318481
+[2020.04.09-05.25.05:820][613]LogTemp: Warning: Object is at: P=0.000000 Y=77.572083 R=0.000000
+[2020.04.09-05.25.05:820][613]LogTemp: Warning: Object Yaw is: 77.572083
+[2020.04.09-05.25.05:821][613]LogTemp: Warning: Object is at: P=0.000000 Y=167.572083 R=0.000000
+[2020.04.09-05.25.05:821][613]LogTemp: Warning: Object Yaw is: 167.572083
+[2020.04.09-05.25.05:836][614]LogTemp: Warning: Object is at: P=0.000000 Y=77.820625 R=0.000000
+[2020.04.09-05.25.05:837][614]LogTemp: Warning: Object Yaw is: 77.820625
+[2020.04.09-05.25.05:837][614]LogTemp: Warning: Object is at: P=0.000000 Y=167.820679 R=0.000000
+[2020.04.09-05.25.05:837][614]LogTemp: Warning: Object Yaw is: 167.820679
+[2020.04.09-05.25.05:853][615]LogTemp: Warning: Object is at: P=0.000000 Y=78.064224 R=0.000000
+[2020.04.09-05.25.05:853][615]LogTemp: Warning: Object Yaw is: 78.064224
+[2020.04.09-05.25.05:853][615]LogTemp: Warning: Object is at: P=0.000000 Y=168.064270 R=0.000000
+[2020.04.09-05.25.05:853][615]LogTemp: Warning: Object Yaw is: 168.064270
+[2020.04.09-05.25.05:868][616]LogTemp: Warning: Object is at: P=0.000000 Y=78.302933 R=0.000000
+[2020.04.09-05.25.05:869][616]LogTemp: Warning: Object Yaw is: 78.302933
+[2020.04.09-05.25.05:869][616]LogTemp: Warning: Object is at: P=0.000000 Y=168.302948 R=0.000000
+[2020.04.09-05.25.05:869][616]LogTemp: Warning: Object Yaw is: 168.302948
+[2020.04.09-05.25.05:890][617]LogTemp: Warning: Object is at: P=0.000000 Y=78.536880 R=0.000000
+[2020.04.09-05.25.05:890][617]LogTemp: Warning: Object Yaw is: 78.536880
+[2020.04.09-05.25.05:890][617]LogTemp: Warning: Object is at: P=0.000000 Y=168.536896 R=0.000000
+[2020.04.09-05.25.05:890][617]LogTemp: Warning: Object Yaw is: 168.536896
+[2020.04.09-05.25.05:907][618]LogTemp: Warning: Object is at: P=0.000000 Y=78.766144 R=0.000000
+[2020.04.09-05.25.05:908][618]LogTemp: Warning: Object Yaw is: 78.766144
+[2020.04.09-05.25.05:908][618]LogTemp: Warning: Object is at: P=0.000000 Y=168.766174 R=0.000000
+[2020.04.09-05.25.05:908][618]LogTemp: Warning: Object Yaw is: 168.766174
+[2020.04.09-05.25.05:925][619]LogTemp: Warning: Object is at: P=0.000000 Y=78.990807 R=0.000000
+[2020.04.09-05.25.05:925][619]LogTemp: Warning: Object Yaw is: 78.990807
+[2020.04.09-05.25.05:925][619]LogTemp: Warning: Object is at: P=0.000000 Y=168.990845 R=0.000000
+[2020.04.09-05.25.05:925][619]LogTemp: Warning: Object Yaw is: 168.990845
+[2020.04.09-05.25.05:942][620]LogTemp: Warning: Object is at: P=0.000000 Y=79.211006 R=0.000000
+[2020.04.09-05.25.05:942][620]LogTemp: Warning: Object Yaw is: 79.211006
+[2020.04.09-05.25.05:942][620]LogTemp: Warning: Object is at: P=0.000000 Y=169.211029 R=0.000000
+[2020.04.09-05.25.05:942][620]LogTemp: Warning: Object Yaw is: 169.211029
+[2020.04.09-05.25.05:957][621]LogTemp: Warning: Object is at: P=0.000000 Y=79.426773 R=0.000000
+[2020.04.09-05.25.05:957][621]LogTemp: Warning: Object Yaw is: 79.426773
+[2020.04.09-05.25.05:957][621]LogTemp: Warning: Object is at: P=0.000000 Y=169.426788 R=0.000000
+[2020.04.09-05.25.05:957][621]LogTemp: Warning: Object Yaw is: 169.426788
+[2020.04.09-05.25.05:973][622]LogTemp: Warning: Object is at: P=0.000000 Y=79.638252 R=0.000000
+[2020.04.09-05.25.05:973][622]LogTemp: Warning: Object Yaw is: 79.638252
+[2020.04.09-05.25.05:974][622]LogTemp: Warning: Object is at: P=0.000000 Y=169.638290 R=0.000000
+[2020.04.09-05.25.05:974][622]LogTemp: Warning: Object Yaw is: 169.638290
+[2020.04.09-05.25.05:990][623]LogTemp: Warning: Object is at: P=0.000000 Y=79.845497 R=0.000000
+[2020.04.09-05.25.05:990][623]LogTemp: Warning: Object Yaw is: 79.845497
+[2020.04.09-05.25.05:991][623]LogTemp: Warning: Object is at: P=0.000000 Y=169.845505 R=0.000000
+[2020.04.09-05.25.05:991][623]LogTemp: Warning: Object Yaw is: 169.845505
+[2020.04.09-05.25.06:007][624]LogTemp: Warning: Object is at: P=0.000000 Y=80.048584 R=0.000000
+[2020.04.09-05.25.06:007][624]LogTemp: Warning: Object Yaw is: 80.048584
+[2020.04.09-05.25.06:008][624]LogTemp: Warning: Object is at: P=0.000000 Y=170.048584 R=0.000000
+[2020.04.09-05.25.06:008][624]LogTemp: Warning: Object Yaw is: 170.048584
+[2020.04.09-05.25.06:009][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.25.06:010][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.25.06:010][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.25.06:013][624]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level
+[2020.04.09-05.25.06:013][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.25.06:014][624]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2020.04.09-05.25.06:015][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-05.25.06:029][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.09-05.25.06:033][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.09-05.25.06:064][624]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.09-05.25.06:070][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.09-05.25.06:074][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.04.09-05.25.06:132][626]LogPlayLevel: Display: Destroying online subsystem :Context_16
