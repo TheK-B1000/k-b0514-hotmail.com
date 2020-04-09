@@ -6320,3 +6320,41 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.09-04.43.42:741][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.04.09-04.43.42:748][640]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
 [2020.04.09-04.43.42:848][642]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.04.09-04.53.19:979][761]Candidate modules for hot reload:
+[2020.04.09-04.53.19:979][761]  BuildingEscape2
+[2020.04.09-04.53.19:979][761]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape2,2219 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject"  -IgnoreJunk]
+[2020.04.09-04.53.20:039][761]Warning: Starting HotReload took  0.1s.
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: New page: Compilation - Apr 8, 2020, 2:54:34 PM
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape).
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: Parsing headers for BuildingEscape2Editor
+[2020.04.09-04.54.34:281][738]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\BuildingEscape2.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscape2Editor\Development\BuildingEscape2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: Reflection code generated for BuildingEscape2Editor in 20.0324376 seconds
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: Building BuildingEscape2Editor...
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: [Upgrade]
+[2020.04.09-04.54.34:281][738]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BuildingEscape2Editor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: [Upgrade]
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:   [1/6] BuildingEscape2.init.gen.cpp
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:   [2/6] OpenDoor.cpp
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:   [3/6] OpenDoor.gen.cpp
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:   [4/6] UE4Editor-BuildingEscape2-2219.lib
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-2219.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-2219.exp
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:   [5/6] UE4Editor-BuildingEscape2-2219.dll
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-2219.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-2219.suppressed.exp
+[2020.04.09-04.54.34:282][738]CompilerResultsLog:   [6/6] BuildingEscape2Editor.target
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: Total time in Parallel executor: 47.83 seconds
+[2020.04.09-04.54.34:282][738]CompilerResultsLog: Total execution time: 72.99 seconds
+[2020.04.09-04.54.34:282][738]LogMainFrame: MainFrame: Module compiling took 74.322 seconds
+[2020.04.09-04.54.34:396][738]LogUObjectHash: Compacting FUObjectHashTables data took  14.95ms
+[2020.04.09-04.54.35:499][738]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape2 for HotReload, assuming new class
+[2020.04.09-04.54.35:527][738]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2020.04.09-04.54.35:701][738]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape2' in 0.0008 seconds. Added 3 classes and 3 folders.
+[2020.04.09-04.54.35:708][738]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.09-04.54.35:810][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2020.04.09-04.54.35:834][738]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 3020 classes and 723 folders.
+[2020.04.09-04.54.35:834][738]Display: HotReload took 75.9s.

@@ -58,7 +58,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOpenDoor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UOpenDoor)
 
 
-#define BuildingEscape2_Source_BuildingEscape2_Public_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET
+#define BuildingEscape2_Source_BuildingEscape2_Public_OpenDoor_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__TargetYaw() { return STRUCT_OFFSET(UOpenDoor, TargetYaw); }
+
+
 #define BuildingEscape2_Source_BuildingEscape2_Public_OpenDoor_h_10_PROLOG
 #define BuildingEscape2_Source_BuildingEscape2_Public_OpenDoor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
