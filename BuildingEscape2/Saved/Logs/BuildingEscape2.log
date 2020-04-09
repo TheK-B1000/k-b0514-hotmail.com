@@ -6358,3 +6358,91 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.09-04.54.35:810][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
 [2020.04.09-04.54.35:834][738]LogContentBrowser: Native class hierarchy populated in 0.0169 seconds. Added 3020 classes and 723 folders.
 [2020.04.09-04.54.35:834][738]Display: HotReload took 75.9s.
+[2020.04.09-05.06.33:634][253]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/M_WoodC8B98E9B48BC3356BBA5F9A5BA2EC159.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/M_Wood.uasset'
+[2020.04.09-05.06.33:873][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.04.09-05.06.33:924][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.04.09-05.06.33:957][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.04.09-05.06.34:066][253]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Door_Wood_MI3F41E9B04CDEC54F9B096C910F3157E2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/Door_Wood_MI.uasset'
+[2020.04.09-05.06.34:158][253]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/SM_Door59F4078541652612C95CBE999B460450.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/SM_Door.uasset'
+[2020.04.09-05.06.34:268][253]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.06.34:268][253]LogContentValidation: Display: Validating Material /Game/Models/M_Wood.M_Wood
+[2020.04.09-05.06.34:268][253]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Models/Door_Wood_MI.Door_Wood_MI
+[2020.04.09-05.06.34:268][253]LogContentValidation: Display: Validating StaticMesh /Game/Models/SM_Door.SM_Door
+[2020.04.09-05.06.45:813][590]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/M_Broken_Concrete194E1E9E4C4747D29E8A12B6C8FBD0FB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/M_Broken_Concrete.uasset'
+[2020.04.09-05.06.46:053][590]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2020.04.09-05.06.46:106][590]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.04.09-05.06.46:138][590]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.04.09-05.06.46:262][590]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Cocrete_Wall_MID5E0E26046B09FE485CC888FA377103F.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/Cocrete_Wall_MI.uasset'
+[2020.04.09-05.06.46:336][590]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/SM_DoorFrame46DA680746E439756E6345A354F46DF0.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/SM_DoorFrame.uasset'
+[2020.04.09-05.06.46:433][590]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.06.46:433][590]LogContentValidation: Display: Validating Material /Game/Models/M_Broken_Concrete.M_Broken_Concrete
+[2020.04.09-05.06.46:433][590]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Models/Cocrete_Wall_MI.Cocrete_Wall_MI
+[2020.04.09-05.06.46:433][590]LogContentValidation: Display: Validating StaticMesh /Game/Models/SM_DoorFrame.SM_DoorFrame
+[2020.04.09-05.06.53:948][774]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/M_Brass77E5F18841489DF2DC67E2952A8ADE8D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/M_Brass.uasset'
+[2020.04.09-05.06.54:184][774]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.04.09-05.06.54:235][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2020.04.09-05.06.54:264][774]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.04.09-05.06.54:317][774]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/SM_DoorECF171074CC961E7EBAB84BD6B0F7823.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/SM_Door.uasset'
+[2020.04.09-05.06.54:385][774]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.06.54:386][774]LogContentValidation: Display: Validating Material /Game/Models/M_Brass.M_Brass
+[2020.04.09-05.06.54:386][774]LogContentValidation: Display: Validating StaticMesh /Game/Models/SM_Door.SM_Door
+[2020.04.09-05.07.21:419][732]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/T_TexturesCom_CastleGate_512_alb0FFF9D6A426881ADD1359CB84C2E8E18.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/T_TexturesCom_CastleGate_512_albedo.uasset'
+[2020.04.09-05.07.21:640][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.04.09-05.07.21:693][732]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.04.09-05.07.21:734][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.04.09-05.07.21:791][732]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/M_Wood012901424B6689C823D509866272DBF8.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/M_Wood.uasset'
+[2020.04.09-05.07.21:858][732]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.07.21:858][732]LogContentValidation: Display: Validating Texture2D /Game/Models/T_TexturesCom_CastleGate_512_albedo.T_TexturesCom_CastleGate_512_albedo
+[2020.04.09-05.07.21:858][732]LogContentValidation: Display: Validating Material /Game/Models/M_Wood.M_Wood
+[2020.04.09-05.07.29:184][943]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/T_TexturesCom_ConcreteSidewalk2_9A21406E475A04FA3F53AB843793A2F0.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/T_TexturesCom_ConcreteSidewalk2_2_8x2_8_512_albedo.uasset'
+[2020.04.09-05.07.29:405][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.04.09-05.07.29:464][943]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2020.04.09-05.07.29:503][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.04.09-05.07.29:554][943]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/M_Broken_Concrete45526A5846FBB17B0F2B93B18B586688.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/M_Broken_Concrete.uasset'
+[2020.04.09-05.07.29:570][943]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Cocrete_Wall_MI76F9E1B7426AEF24D4F7D5BAE6266EA2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/Cocrete_Wall_MI.uasset'
+[2020.04.09-05.07.29:647][943]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.07.29:647][943]LogContentValidation: Display: Validating Texture2D /Game/Models/T_TexturesCom_ConcreteSidewalk2_2_8x2_8_512_albedo.T_TexturesCom_ConcreteSidewalk2_2_8x2_8_512_albedo
+[2020.04.09-05.07.29:647][943]LogContentValidation: Display: Validating Material /Game/Models/M_Broken_Concrete.M_Broken_Concrete
+[2020.04.09-05.07.29:647][943]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Models/Cocrete_Wall_MI.Cocrete_Wall_MI
+[2020.04.09-05.07.30:565][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.04.09-05.07.30:607][966]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/LevelE43AB86A495800FCF043598CF2657A61.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.09-05.07.30:716][966]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData9ADD7B3F495168C3BBA9EFA2137BB1CD.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.09-05.07.30:741][966]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.07.30:741][966]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.09-05.07.30:741][966]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
+[2020.04.09-05.08.04:969][478]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/MI_Door_Wood6978CA1D47B0C91D554C88843603C205.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/MI_Door_Wood.uasset'
+[2020.04.09-05.08.05:176][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.04.09-05.08.05:229][478]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.04.09-05.08.05:262][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.04.09-05.08.05:304][478]AssetCheck: New page: Asset Save: MI_Door_Wood
+[2020.04.09-05.08.05:304][478]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Models/MI_Door_Wood.MI_Door_Wood
+[2020.04.09-05.08.11:494][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.04.09-05.08.11:538][632]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level3B45769642D18A8D935F86B8BDB38AFD.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.09-05.08.11:609][632]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData81ED621445B3B87CF30CCDB1BCDE4647.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.09-05.08.11:640][632]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.08.11:640][632]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.09-05.08.11:640][632]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
+[2020.04.09-05.09.08:589][149]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/T_TexturesCom_CastleGate_512_alb6582765F459DEAD03703E59221D9DBCF.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/T_TexturesCom_CastleGate_512_albedo_BC.uasset'
+[2020.04.09-05.09.08:868][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.04.09-05.09.08:925][149]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.04.09-05.09.08:968][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.04.09-05.09.09:035][149]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/M_WoodFB7BA134408769B51C8FEBA7AE0A25DE.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/M_Wood.uasset'
+[2020.04.09-05.09.09:143][149]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.09.09:143][149]LogContentValidation: Display: Validating Texture2D /Game/Models/T_TexturesCom_CastleGate_512_albedo_BC.T_TexturesCom_CastleGate_512_albedo_BC
+[2020.04.09-05.09.09:143][149]LogContentValidation: Display: Validating Material /Game/Models/M_Wood.M_Wood
+[2020.04.09-05.09.18:886][324]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/T_TexturesCom_ConcreteSidewalk2_1F6872534B1DDCC1BF0115B0481EDBB2.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/T_TexturesCom_ConcreteSidewalk2_2_8x2_8_512_albedo_BC.uasset'
+[2020.04.09-05.09.19:182][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.04.09-05.09.19:237][324]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2020.04.09-05.09.19:280][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.04.09-05.09.19:341][324]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/M_Broken_Concrete3BFDE81E40368D825A343091C9A8BFDB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/M_Broken_Concrete.uasset'
+[2020.04.09-05.09.19:370][324]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Cocrete_Wall_MI77F4B73445F7756C350B698EA369322E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Models/Cocrete_Wall_MI.uasset'
+[2020.04.09-05.09.19:452][324]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.09.19:452][324]LogContentValidation: Display: Validating Texture2D /Game/Models/T_TexturesCom_ConcreteSidewalk2_2_8x2_8_512_albedo_BC.T_TexturesCom_ConcreteSidewalk2_2_8x2_8_512_albedo_BC
+[2020.04.09-05.09.19:452][324]LogContentValidation: Display: Validating Material /Game/Models/M_Broken_Concrete.M_Broken_Concrete
+[2020.04.09-05.09.19:452][324]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Models/Cocrete_Wall_MI.Cocrete_Wall_MI
+[2020.04.09-05.09.20:428][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.04.09-05.09.20:470][346]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level579710344C2B90BCEB58E2B80173ABED.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.09-05.09.20:574][346]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData243B84754289A3DDFCCFE08865AB2A69.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.09-05.09.20:611][346]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.09.20:611][346]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.09-05.09.20:611][346]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
