@@ -1,7 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape).
   Parsing headers for BuildingEscape2Editor
     Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\BuildingEscape2.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscape2Editor\Development\BuildingEscape2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BuildingEscape2Editor in 16.0288373 seconds
+  Reflection code generated for BuildingEscape2Editor in 11.6298249 seconds
   Building BuildingEscape2Editor...
   Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -11,13 +11,11 @@
   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BuildingEscape2Editor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
-  Building 5 actions with 4 processes...
-    [1/5] OpenDoor.cpp
-    [2/5] OpenDoor.gen.cpp
-    [3/5] UE4Editor-BuildingEscape2-0011.lib
-       Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0011.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0011.exp
-    [4/5] UE4Editor-BuildingEscape2-0011.dll
-       Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0011.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0011.suppressed.exp
-    [5/5] BuildingEscape2Editor.target
-  Total time in Parallel executor: 31.42 seconds
-  Total execution time: 49.87 seconds
+  Building 3 actions with 4 processes...
+    [1/3] UE4Editor-BuildingEscape2-0032.lib
+       Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0032.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0032.exp
+    [2/3] UE4Editor-BuildingEscape2-0032.dll
+       Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0032.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-0032.suppressed.exp
+    [3/3] BuildingEscape2Editor.target
+  Total time in Parallel executor: 2.60 seconds
+  Total execution time: 15.76 seconds
