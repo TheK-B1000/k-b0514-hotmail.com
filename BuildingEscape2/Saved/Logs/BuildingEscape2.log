@@ -7191,3 +7191,98 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.09-05.25.06:070][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2020.04.09-05.25.06:074][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
 [2020.04.09-05.25.06:132][626]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.09-05.45.46:649][418]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.04.09-05.46.10:396][  1]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.04.09-05.46.10:442][  1]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level9B20759841910B9A3BDBD7AB97DA9FE3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.09-05.46.10:521][  1]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData1DD920CB42C1B73F036806B008182110.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.09-05.46.10:541][  1]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-05.46.10:541][  1]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.09-05.46.10:541][  1]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
+[2020.04.09-05.59.39:917][518]Candidate modules for hot reload:
+[2020.04.09-05.59.39:917][518]  BuildingEscape2
+[2020.04.09-05.59.39:918][518]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape2,1158 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject"  -IgnoreJunk]
+[2020.04.09-05.59.39:975][518]Warning: Starting HotReload took  0.2s.
+[2020.04.09-06.00.33:778][210]CompilerResultsLog: New page: Compilation - Apr 8, 2020, 4:00:33 PM
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape).
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: Parsing headers for BuildingEscape2Editor
+[2020.04.09-06.00.33:780][210]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\BuildingEscape2.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscape2Editor\Development\BuildingEscape2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: Reflection code generated for BuildingEscape2Editor in 19.5818677 seconds
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: Building BuildingEscape2Editor...
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: [Upgrade]
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BuildingEscape2Editor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: [Upgrade]
+[2020.04.09-06.00.33:780][210]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.09-06.00.33:780][210]CompilerResultsLog:   [1/6] OpenDoor.cpp
+[2020.04.09-06.00.33:784][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2\Public\OpenDoor.h(35) : error C2143: syntax error: missing ';' before '*'
+[2020.04.09-06.00.33:784][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2\Public\OpenDoor.h(35) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2\Public\OpenDoor.h(35) : error C2238: unexpected token(s) preceding ';'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2\Public\OpenDoor.h(13) : error C2039: 'PressurePlate': is not a member of 'UOpenDoor'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2\Public\OpenDoor.h(11): note: see declaration of 'UOpenDoor'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2\Public\OpenDoor.h(13) : error C2618: illegal member designator in offsetof
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2\Public\OpenDoor.h(13): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   [2/6] OpenDoor.gen.cpp
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(35) : error C2143: syntax error: missing ';' before '*'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(35) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(35) : error C2238: unexpected token(s) preceding ';'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(13) : error C2039: 'PressurePlate': is not a member of 'UOpenDoor'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(11): note: see declaration of 'UOpenDoor'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(13) : error C2618: illegal member designator in offsetof
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(13): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape2\OpenDoor.gen.cpp(65) : error C2039: 'PressurePlate': is not a member of 'UOpenDoor'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Source\BuildingEscape2/Public/OpenDoor.h(11): note: see declaration of 'UOpenDoor'
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape2\OpenDoor.gen.cpp(65) : error C2618: illegal member designator in offsetof
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape2\OpenDoor.gen.cpp(65): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2020.04.09-06.00.33:785][210]CompilerResultsLog:   [3/6] BuildingEscape2.init.gen.cpp
+[2020.04.09-06.00.33:786][210]LogMainFrame: MainFrame: Module compiling took 53.939 seconds
+[2020.04.09-06.00.33:786][210]Warning: HotReload failed, recompile failed
+[2020.04.09-06.04.57:654][339]Candidate modules for hot reload:
+[2020.04.09-06.04.57:654][339]  BuildingEscape2
+[2020.04.09-06.04.57:655][339]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BuildingEscape2,5182 Win64 Development -TargetType=Editor -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/BuildingEscape2.uproject"  -IgnoreJunk]
+[2020.04.09-06.04.57:681][339]Warning: Starting HotReload took  0.1s.
+[2020.04.09-06.05.36:284][470]CompilerResultsLog: New page: Compilation - Apr 8, 2020, 4:05:36 PM
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape).
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Parsing headers for BuildingEscape2Editor
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\BuildingEscape2.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\BuildingEscape2Editor\Development\BuildingEscape2Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Reflection code generated for BuildingEscape2Editor in 9.9664476 seconds
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Building BuildingEscape2Editor...
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Using Visual Studio 2019 14.24.28316 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: [Upgrade]
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in BuildingEscape2Editor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: [Upgrade]
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:   [1/5] OpenDoor.cpp
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:   [2/5] OpenDoor.gen.cpp
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:   [3/5] UE4Editor-BuildingEscape2-5182.lib
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-5182.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-5182.exp
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:   [4/5] UE4Editor-BuildingEscape2-5182.dll
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-5182.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\RemasteredBuildingEscape\BuildingEscape2\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape2\UE4Editor-BuildingEscape2-5182.suppressed.exp
+[2020.04.09-06.05.36:285][470]CompilerResultsLog:   [5/5] BuildingEscape2Editor.target
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Total time in Parallel executor: 25.60 seconds
+[2020.04.09-06.05.36:285][470]CompilerResultsLog: Total execution time: 38.07 seconds
+[2020.04.09-06.05.36:286][470]LogMainFrame: MainFrame: Module compiling took 38.696 seconds
+[2020.04.09-06.05.36:322][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.04.09-06.05.38:559][470]LogClass: Could not find existing class OpenDoor in package /Script/BuildingEscape2 for HotReload, assuming new class
+[2020.04.09-06.05.38:584][470]LogHotReload: Re-instancing OpenDoor after hot-reload.
+[2020.04.09-06.05.39:001][470]LogContentBrowser: Native class hierarchy updated for 'BuildingEscape2' in 0.0049 seconds. Added 3 classes and 3 folders.
+[2020.04.09-06.05.39:005][470]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.09-06.05.39:090][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.04.09-06.05.39:180][470]LogContentBrowser: Native class hierarchy populated in 0.0295 seconds. Added 3020 classes and 723 folders.
+[2020.04.09-06.05.39:181][470]Display: HotReload took 41.6s.
+[2020.04.09-06.07.02:492][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2020.04.09-06.07.08:550][972]LogSlate: Took 0.002796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.04.09-06.07.14:236][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door2)
+[2020.04.09-06.07.20:165][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.04.09-06.07.20:209][252]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level4EA4CC714B2B7F8E39DC70A9CBB2595E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.09-06.07.20:291][252]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData03D34CC8477A4AEBF4DEDF92F62420A1.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.09-06.07.20:316][252]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.09-06.07.20:316][252]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.09-06.07.20:316][252]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
