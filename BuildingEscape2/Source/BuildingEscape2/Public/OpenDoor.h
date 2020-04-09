@@ -26,7 +26,10 @@ public:
 
 private:
 	float CurrentYaw;
-	float TargetYaw = 90;
 	float DeltaYawToOpen;
+
+	UPROPERTY(EditAnywhere)
+	float TargetYaw = 90.f;
+
 		
 };
