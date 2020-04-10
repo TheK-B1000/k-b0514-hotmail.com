@@ -25,9 +25,12 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	void CloseDoor(float DeltaTime);
+
 	void OpenDoor(float DeltaTime);
 
 private:
+	float StartingYaw;
 	float CurrentYaw;
 	float InitialYaw;
 
