@@ -629,3 +629,238 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.11-14.57.03:931][673]LogEditorActor: Deleted Actor: DefaultPawn_BP_C
 [2020.04.11-14.57.03:974][673]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
 [2020.04.11-14.57.03:975][673]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2020.04.11-14.58.24:971][601]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.04.11-14.58.34:710][ 70]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GameMode_BP.GameMode_BP
+[2020.04.11-14.58.35:429][ 70]LogRenderer: Reallocating scene render targets to support 888x524 Format 10 NumSamples 1 (Frame:1).
+[2020.04.11-14.58.38:692][161]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.11-14.58.42:367][266]BlueprintLog: New page: Compile GameMode_BP
+[2020.04.11-14.58.42:714][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.04.11-14.58.43:129][274]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/GameMode_BP966AA22F4A9C63F7169AEFB4B9ED9CBE.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Blueprints/GameMode_BP.uasset'
+[2020.04.11-14.58.43:160][274]AssetCheck: New page: Asset Save: GameMode_BP
+[2020.04.11-14.58.43:160][274]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GameMode_BP.GameMode_BP
+[2020.04.11-14.58.44:467][310]LogSlate: Window 'GameMode_BP' being destroyed
+[2020.04.11-14.58.55:209][829]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2020.04.11-14.58.55:226][829]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGameMode_BP.BuildingEscapeGameMode_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/GameMode_BP.PackageMetaData'
+[2020.04.11-14.58.55:226][829]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGameMode_BP.SKEL_BuildingEscapeGameMode_BP_C' ref from Metadata '/Game/Blueprints/GameMode_BP.PackageMetaData'
+[2020.04.11-14.58.55:226][829]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGameMode_BP.BuildingEscapeGameMode_BP_C' ref from Metadata '/Game/Blueprints/GameMode_BP.PackageMetaData'
+[2020.04.11-14.58.55:226][829]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGameMode_BP.BuildingEscapeGameMode_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/GameMode_BP.PackageMetaData'
+[2020.04.11-14.58.55:226][829]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGameMode_BP.BuildingEscapeGameMode_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/GameMode_BP.PackageMetaData'
+[2020.04.11-14.58.55:303][829]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/BuildingEscapeGameMode_BP3B827D95480FF2D65F26719F922AD7BA.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Blueprints/BuildingEscapeGameMode_BP.uasset'
+[2020.04.11-14.58.55:760][829]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.04.11-14.58.55:826][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.04.11-14.58.55:874][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.04.11-14.58.55:929][829]AssetCheck: New page: Asset Save: BuildingEscapeGameMode_BP
+[2020.04.11-14.58.55:930][829]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BuildingEscapeGameMode_BP.BuildingEscapeGameMode_BP
+[2020.04.11-14.59.00:877][ 11]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.11-14.59.11:417][471]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.04.11-14.59.11:431][471]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGame2Mode_BP.BuildingEscapeGame2Mode_BP_C' ref from Metadata '/Game/Blueprints/BuildingEscapeGameMode_BP.PackageMetaData'
+[2020.04.11-14.59.11:431][471]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGame2Mode_BP.SKEL_BuildingEscapeGame2Mode_BP_C' ref from Metadata '/Game/Blueprints/BuildingEscapeGameMode_BP.PackageMetaData'
+[2020.04.11-14.59.11:431][471]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGame2Mode_BP.BuildingEscapeGame2Mode_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BuildingEscapeGameMode_BP.PackageMetaData'
+[2020.04.11-14.59.11:431][471]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGame2Mode_BP.BuildingEscapeGame2Mode_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BuildingEscapeGameMode_BP.PackageMetaData'
+[2020.04.11-14.59.11:432][471]LogMetaData: Removing '/Game/Blueprints/BuildingEscapeGame2Mode_BP.BuildingEscapeGame2Mode_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BuildingEscapeGameMode_BP.PackageMetaData'
+[2020.04.11-14.59.11:498][471]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/BuildingEscapeGame2Mode_BPABD42C75432B69047DE87286FBA9CE83.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Blueprints/BuildingEscapeGame2Mode_BP.uasset'
+[2020.04.11-14.59.11:831][471]LogUObjectHash: Compacting FUObjectHashTables data took   9.15ms
+[2020.04.11-14.59.11:899][471]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.04.11-14.59.11:953][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.04.11-14.59.12:005][471]AssetCheck: New page: Asset Save: BuildingEscapeGame2Mode_BP
+[2020.04.11-14.59.12:005][471]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BuildingEscapeGame2Mode_BP.BuildingEscapeGame2Mode_BP
+[2020.04.11-14.59.19:003][742]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2020.04.11-14.59.19:014][742]LogMetaData: Removing '/Game/Blueprints/BuildingEscape2GameMode_BP.BuildingEscape2GameMode_BP_C' ref from Metadata '/Game/Blueprints/BuildingEscapeGame2Mode_BP.PackageMetaData'
+[2020.04.11-14.59.19:014][742]LogMetaData: Removing '/Game/Blueprints/BuildingEscape2GameMode_BP.SKEL_BuildingEscape2GameMode_BP_C' ref from Metadata '/Game/Blueprints/BuildingEscapeGame2Mode_BP.PackageMetaData'
+[2020.04.11-14.59.19:014][742]LogMetaData: Removing '/Game/Blueprints/BuildingEscape2GameMode_BP.BuildingEscape2GameMode_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BuildingEscapeGame2Mode_BP.PackageMetaData'
+[2020.04.11-14.59.19:014][742]LogMetaData: Removing '/Game/Blueprints/BuildingEscape2GameMode_BP.BuildingEscape2GameMode_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BuildingEscapeGame2Mode_BP.PackageMetaData'
+[2020.04.11-14.59.19:014][742]LogMetaData: Removing '/Game/Blueprints/BuildingEscape2GameMode_BP.BuildingEscape2GameMode_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BuildingEscapeGame2Mode_BP.PackageMetaData'
+[2020.04.11-14.59.19:079][742]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/BuildingEscape2GameMode_BP5F14CD8144913A8E6DA3F380213EB176.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Blueprints/BuildingEscape2GameMode_BP.uasset'
+[2020.04.11-14.59.19:387][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.04.11-14.59.19:451][742]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.04.11-14.59.19:502][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2020.04.11-14.59.19:552][742]AssetCheck: New page: Asset Save: BuildingEscape2GameMode_BP
+[2020.04.11-14.59.19:552][742]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BuildingEscape2GameMode_BP.BuildingEscape2GameMode_BP
+[2020.04.11-14.59.22:476][862]LogUObjectHash: Compacting FUObjectHashTables data took   7.33ms
+[2020.04.11-14.59.22:519][862]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level3FBED0224F90B42035FB98A2F7E56AB9.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.11-14.59.22:619][862]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData4FAF1587421C0EFE196980B573C889E7.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.11-14.59.22:658][862]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.11-14.59.22:658][862]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.11-14.59.22:658][862]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
+[2020.04.11-15.00.11:735][864]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-15.00.11:782][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-15.00.11:783][864]PIE: New page: PIE session: Level (Apr 11, 2020, 1:00:11 AM)
+[2020.04.11-15.00.11:785][864]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.11-15.00.11:790][864]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.11-15.00.11:792][864]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level
+[2020.04.11-15.00.11:800][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007761s)
+[2020.04.11-15.00.11:801][864]LogAIModule: Creating AISystem for world Level
+[2020.04.11-15.00.11:802][864]LogPlayLevel: PIE: World Init took: (0.001916s)
+[2020.04.11-15.00.11:802][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level.Level to /Game/Levels/UEDPIE_0_Level.Level (0.010639s)
+[2020.04.11-15.00.11:860][864]LogUObjectHash: Compacting FUObjectHashTables data took   7.56ms
+[2020.04.11-15.00.11:862][864]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-15.00.11:862][864]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-15.00.11:862][864]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-15.00.11:862][864]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-15.00.11:862][864]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-15.00.11:862][864]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-15.00.11:862][864]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-15.00.11:862][864]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-15.00.11:863][864]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-15.00.11:863][864]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-15.00.11:903][864]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: Channel Order:
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-15.00.11:904][864]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-15.00.12:083][864]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.11-15.00.12:085][864]LogInit: FAudioDevice initialized.
+[2020.04.11-15.00.12:106][864]LogLinker: Warning: Failed to load '/Game/Blueprints/BuildingEscapeGameMode_BP': Can't find file.
+[2020.04.11-15.00.12:106][864]LogLinker: Warning: Failed to load '/Game/Blueprints/BuildingEscapeGameMode_BP': Can't find file.
+[2020.04.11-15.00.12:106][864]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/BuildingEscapeGameMode_BP.BuildingEscapeGameMode_BP_C'
+[2020.04.11-15.00.12:106][864]LogLoad: Game class is 'GameModeBase'
+[2020.04.11-15.00.12:112][864]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2020.04.11-08.00.12
+[2020.04.11-15.00.12:114][864]LogWorld: Bringing up level for play took: 0.002721
+[2020.04.11-15.00.12:115][864]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.04.11-15.00.12:140][864]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 20 classes and 0 folders.
+[2020.04.11-15.00.12:145][864]LogTemp: Warning: Object name is: Cube_2
+[2020.04.11-15.00.12:145][864]LogTemp: Warning: Cube_2 is at position: X=-130.000 Y=-240.000 Z=30.000 .
+[2020.04.11-15.00.12:145][864]LogTemp: Warning: 牵散䉜極摬湩䕧捳灡㉥停楲慶整作数䑮潯⹲灣p has the Open Door Component, but the Actor That Opens is mising!
+[2020.04.11-15.00.12:145][864]LogTemp: Warning: 똏鞃 has the Open Door Component, but the Actor That Opens is mising!
+[2020.04.11-15.00.12:149][864]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level -0.524
+[2020.04.11-15.00.21:476][241]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.21:476][241]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.21:482][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-15.00.21:482][241]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level
+[2020.04.11-15.00.21:486][241]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.21:486][241]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-15.00.21:487][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-15.00.21:499][241]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-15.00.21:508][241]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-15.00.21:572][241]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.21:580][241]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-15.00.21:627][241]LogUObjectHash: Compacting FUObjectHashTables data took  12.02ms
+[2020.04.11-15.00.21:663][242]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.04.11-15.00.24:132][332]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.11-15.00.28:220][486]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-15.00.28:258][486]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-15.00.28:258][486]PIE: New page: PIE session: Level (Apr 11, 2020, 1:00:28 AM)
+[2020.04.11-15.00.28:258][486]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level
+[2020.04.11-15.00.28:268][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010031s)
+[2020.04.11-15.00.28:270][486]LogAIModule: Creating AISystem for world Level
+[2020.04.11-15.00.28:270][486]LogPlayLevel: PIE: World Init took: (0.002177s)
+[2020.04.11-15.00.28:271][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level.Level to /Game/Levels/UEDPIE_0_Level.Level (0.012405s)
+[2020.04.11-15.00.28:337][486]LogUObjectHash: Compacting FUObjectHashTables data took   8.26ms
+[2020.04.11-15.00.28:341][486]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-15.00.28:341][486]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-15.00.28:341][486]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-15.00.28:341][486]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-15.00.28:341][486]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-15.00.28:341][486]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-15.00.28:341][486]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-15.00.28:341][486]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-15.00.28:342][486]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-15.00.28:342][486]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: Channel Order:
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-15.00.28:380][486]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-15.00.28:528][486]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.11-15.00.28:531][486]LogInit: FAudioDevice initialized.
+[2020.04.11-15.00.28:541][486]LogLoad: Game class is 'BuildingEscape2GameMode_BP_C'
+[2020.04.11-15.00.28:543][486]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2020.04.11-08.00.28
+[2020.04.11-15.00.28:544][486]LogWorld: Bringing up level for play took: 0.001217
+[2020.04.11-15.00.28:544][486]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.04.11-15.00.28:546][486]LogTemp: Warning: Object name is: Cube_2
+[2020.04.11-15.00.28:546][486]LogTemp: Warning: Cube_2 is at position: X=-130.000 Y=-240.000 Z=30.000 .
+[2020.04.11-15.00.28:546][486]LogTemp: Warning: 똏鞃 has the Open Door Component, but the Actor That Opens is mising!
+[2020.04.11-15.00.28:546][486]LogTemp: Warning: 똏鞃 has the Open Door Component, but the Actor That Opens is mising!
+[2020.04.11-15.00.28:546][486]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level -0.126
+[2020.04.11-15.00.39:274][950]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.39:274][950]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.39:275][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-15.00.39:275][950]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level
+[2020.04.11-15.00.39:277][950]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.39:278][950]LogWorld: UWorld::CleanupWorld for Level, bSessionEnded=true, bCleanupResources=true
+[2020.04.11-15.00.39:279][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-15.00.39:294][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.11-15.00.39:304][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.11-15.00.39:364][950]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.11-15.00.39:368][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.11-15.00.39:373][950]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2020.04.11-15.00.39:391][951]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.04.11-15.00.50:351][460]BlueprintLog: New page: Compile DefaultPawn_BP
+[2020.04.11-15.00.50:804][460]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2020.04.11-15.00.51:413][481]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/DefaultPawn_BP5422698A43096FC0D5735DB27EE7F28D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Blueprints/DefaultPawn_BP.uasset'
+[2020.04.11-15.00.51:433][481]AssetCheck: New page: Asset Save: DefaultPawn_BP
+[2020.04.11-15.00.51:433][481]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/DefaultPawn_BP.DefaultPawn_BP
+[2020.04.11-15.06.57:749][156]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.11-15.07.23:599][327]LogSlate: Window 'Reparent Blueprint' being destroyed
+[2020.04.11-15.07.23:606][327]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/DefaultPawn_BP.DefaultPawn_BP from DefaultPawn to BuildingEscape2GameModeBase...
+[2020.04.11-15.07.23:617][327]BlueprintLog: New page: Compile DefaultPawn_BP
+[2020.04.11-15.07.24:046][327]LogUObjectHash: Compacting FUObjectHashTables data took   8.50ms
+[2020.04.11-15.07.38:745][122]LogEditorTransaction: Undo Reparent Blueprint
+[2020.04.11-15.07.41:110][239]BlueprintLog: New page: Compile DefaultPawn_BP
+[2020.04.11-15.07.41:525][239]LogUObjectHash: Compacting FUObjectHashTables data took   9.10ms
+[2020.04.11-15.07.51:806][746]BlueprintLog: New page: Compile DefaultPawn_BP
+[2020.04.11-15.07.52:239][746]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.04.11-15.07.52:873][772]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/DefaultPawn_BPA37607E346CF576BBA7A4C89F36FC5C1.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Blueprints/DefaultPawn_BP.uasset'
+[2020.04.11-15.07.52:902][772]AssetCheck: New page: Asset Save: DefaultPawn_BP
+[2020.04.11-15.07.52:902][772]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/DefaultPawn_BP.DefaultPawn_BP
+[2020.04.11-15.07.55:098][871]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.04.11-15.07.59:145][ 45]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/Blueprints/BuildingEscape2GameMode_BP.BuildingEscape2GameMode_BP from GameModeBase to BuildingEscape2GameModeBase...
+[2020.04.11-15.07.59:158][ 45]BlueprintLog: New page: Compile BuildingEscape2GameMode_BP
+[2020.04.11-15.07.59:558][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2020.04.11-15.08.07:528][455]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.11-15.08.07:569][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.11-15.08.07:569][455]PIE: New page: PIE session: Level (Apr 11, 2020, 1:08:07 AM)
+[2020.04.11-15.08.07:569][455]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level
+[2020.04.11-15.08.07:583][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013901s)
+[2020.04.11-15.08.07:585][455]LogAIModule: Creating AISystem for world Level
+[2020.04.11-15.08.07:585][455]LogPlayLevel: PIE: World Init took: (0.001707s)
+[2020.04.11-15.08.07:585][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level.Level to /Game/Levels/UEDPIE_0_Level.Level (0.015840s)
+[2020.04.11-15.08.07:654][455]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.11-15.08.07:657][455]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.11-15.08.07:657][455]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.11-15.08.07:657][455]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: Is Default: Yes
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: Channel Order:
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.11-15.08.07:698][455]LogAudioMixer: Display: 1: FrontRight
+[2020.04.11-15.08.07:839][455]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.11-15.08.07:842][455]LogInit: FAudioDevice initialized.
+[2020.04.11-15.08.07:858][455]LogLoad: Game class is 'BuildingEscape2GameMode_BP_C'
+[2020.04.11-15.08.07:863][455]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level.Level up for play (max tick rate 60) at 2020.04.11-08.08.07
+[2020.04.11-15.08.07:863][455]LogWorld: Bringing up level for play took: 0.001301
+[2020.04.11-15.08.07:863][455]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.04.11-15.08.07:866][455]LogTemp: Warning: Object name is: Cube_2
+[2020.04.11-15.08.07:867][455]LogTemp: Warning: Cube_2 is at position: X=-130.000 Y=-240.000 Z=30.000 .
+[2020.04.11-15.08.07:867][455]LogTemp: Warning: 똏鞃 has the Open Door Component, but the Actor That Opens is mising!
+[2020.04.11-15.08.07:867][455]LogTemp: Warning: 똏鞃 has the Open Door Component, but the Actor That Opens is mising!
+[2020.04.11-15.08.07:867][455]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level 1.195
+[2020.04.11-15.08.12:286][658]LogUObjectHash: Compacting FUObjectHashTables data took   7.05ms
+[2020.04.11-15.08.12:334][658]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level527E202341BF791BFD3F4AB01A28E43D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level.umap'
+[2020.04.11-15.08.12:420][658]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Saved/Level_BuiltData7E42265E4F8FD98DEA18B181A9E3F79D.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/RemasteredBuildingEscape/BuildingEscape2/Content/Levels/Level_BuiltData.uasset'
+[2020.04.11-15.08.12:445][658]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.11-15.08.12:445][658]LogContentValidation: Display: Validating World /Game/Levels/Level.Level
+[2020.04.11-15.08.12:445][658]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/Level_BuiltData.Level_BuiltData
+[2020.04.11-15.08.36:924][ 86]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.04.11-15.08.36:941][ 86]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.04.11-15.08.55:635][494]LogSlate: Window 'Project Settings' being destroyed
+[2020.04.11-15.08.55:658][494]LogSlate: Window 'Project Settings' being destroyed
