@@ -60,4 +60,14 @@
       <Filter>Source\BuildingEscape2\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BuildingEscape2\Public\Grabber.h">
+      <Filter>Source\BuildingEscape2\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BuildingEscape2\Private\Grabber.cpp">
+      <Filter>Source\BuildingEscape2\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
